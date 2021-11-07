@@ -1,0 +1,57 @@
+
+       
+      
+    header{
+		background-color: #E7C66B;
+		border: #63A6A3 dotted 10px;
+		text-align: center;
+		color: #63A6A3;
+		margin-bottom: 10px;
+	}
+			  
+    #container{
+		background:#CCDFE4;
+		width: 95%;
+		margin:12px auto;
+		padding:25px
+	} 
+	
+	form[name='nameform']{
+		font-size: 18px;
+	    font-weight: bold; 
+	}
+	
+ 
+    input[type='text']{
+		background-color:#E6DAB1;
+		border: #63A6A3 outset 5px;
+		border-radius: 15px;  
+		color: #63A6A3;
+		width: 150px;
+		font-size: 18px;
+		padding: 10px;
+		font-weight: bold; 
+	}
+       
+   
+    input[type='submit']{
+		padding: 20px;
+		background-image: url("./Tux-button.png");
+		background-position: top;
+        background-repeat: no-repeat;
+		background-size: cover;
+		height: 100px;
+        width: 160px;
+		border: #63A6A3 solid 5px;
+		border-radius: 70%;
+		color: #63A6A3;
+		font-size: 14px;
+		font-weight: bold; 
+		word-break: keep-all;
+		cursor: pointer; 
+	}  
+		
+  
+
+
+

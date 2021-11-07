@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<HTML lang="de">
+   
+<head>
+	<title> Fun zu Linux </title>
+    <script src="./scriptQuiz.js"> </script>
+	<link rel="stylesheet" type="text/css" href="./styleQuiz_Sonja.css"> 
+
+<link rel="shortcut icon" type="image/x-icon" href="./TuxDesiderat.ico">
+
+<!-- Folgende zwei Zeilen machen das selbe, die erste wird von älterne Browsern verstanden, daher hier doppelt-->
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="author" content="NAME---------NAME--------ergänzen">
+
+</head>
+
+
+<body>
+
+   
+<div id="container">
+	        
+<header>
+	<h1> Desiderats kleines Linuxquiz</h1>
+	<p> Viel Spaß beim Rätseln. </p>
+</header>  
+	   
+<table class="tabelleMitte">
+      <tr>
+		<td>
+             <div class="texteigenschaften">
+                 <h3>Teste Dein Ihr Linuxwissen und beantworte einige Fragen zu Linux. </h3>
+                 <p>Gebe einen Namen ein und klicke auf je eine der Antwortmöglichkeiten.<br>
+                  Am Ende erhältst Du Dein Ergebnis. </p>
+                 <br>
+                 <h3>Hinweise zur Darstellung:</h3>
+                 <p>JavaScript muss aktiviert sein.</p>
+             </div>
+         </td>
+        
+      </tr>
+   </table>
+
+	   <section>
+		  <br>
+	     
+	      <form name="nameform"> 
+	      Name:
+	      <input type="text" name="name">
+	      
+	      	      <img src="./Quiz-Tux1.png" alt=" Tuxbild kann nicht geladen werden." >
+	      
+	      <br>
+	      <br>
+
+	      </form>
+     
+		  <br>
+	      
+	      <div id="results"></div>
+	      <form name="quizform" onsubmit="return submitAnswers()">
+	        
+	        <h3> 1. Was ist Linux?</h3>
+	        <input type="radio" name="frage1" value="a" id="frage1a">a. Ein vollwertiges Betriebssystem. <br>
+	        <input type="radio" name="frage1" value="b" id="frage1b">b. Ein knuffiger Pinguin. <br>
+	        <input type="radio" name="frage1" value="c" id="frage1c">c. Ein Computer für Nerds. <br>
+	        <input type="radio" name="frage1" value="d" id="frage1d">d. Ein kleines Programm. <br>
+	        
+	        <h3> 2. Wie erfahre ich welche Software es für Linux gibt?</h3>
+	        <input type="radio" name="frage2" value="a" id="frage2a">a. Wieso extra Software? Linux ist doch die Software. <br>
+	        <input type="radio" name="frage2" value="b" id="frage2b">b. Eine Übersicht über viele wichtige Programme für Linux gibt es im internet ;). <br>
+	        <input type="radio" name="frage2" value="c" id="frage2c">c. Eine komplette Übersicht gibt es auf der Firmenseite von der Linuxfirma "OpenSource".  <br>
+	       
+	        	       	       
+	        <h3> 3. Wo kann man Linux verwenden?</h3>
+	        <input type="radio" name="frage3" value="a" id="frage3a">a. Linux läuft eigentlich nur auf Servern. <br>
+	        <input type="radio" name="frage3" value="b" id="frage3b">b. Linux eignet sich nur für alte Rechner mit schwacher Hardware. <br>
+	        <input type="radio" name="frage3" value="c" id="frage3c">c. Linux ist so vielseitig, dass es für die meisten Computer geeignet ist. <br>
+	        <input type="radio" name="frage3" value="d" id="frage3d">d. Fast überall, aber auf dem Raspberry Pi läuft nur Windows. <br>      
+	       
+	        
+	        <h3> 4. Wie prüfe ich, ob Linux auch auf meinem Laptop/PC läuft (ohne mein vorhandenes Betriebssystem zu verändern/löschen)?</h3>
+	        <input type="radio" name="frage4" value="a" id="frage4a">a. Ich starte ein Linux-Live-System von CD, DVD oder USB-Stick. Wenn das klappt, sollte es laufen. <br>
+	        <input type="radio" name="frage4" value="b" id="frage4b">b. Ach was, einfach mal drüber installieren und das Beste hoffen.  <br>
+	        <input type="radio" name="frage4" value="c" id="frage4c">c. Die Information finden Sie in Ihrer Windows Systemsteuerung unter Linux <br>
+
+	        
+	        <h3> 5. Wäre Windwos ein Hamburger, dann wäre Linux...?</h3>
+	        <input type="radio" name="frage5" value="a" id="frage5a">a. Ein Cheeseburger mit extra Tomate. <br>
+	        <input type="radio" name="frage5" value="b" id="frage5b">b. Dein Lieblingsburger mit Belag nach Wahl. <br>
+	        <input type="radio" name="frage5" value="c" id="frage5c">c. Ein Hamburger mit Pommes. <br>
+	        <input type="radio" name="frage5" value="d" id="frage5d">d. Viele Miniburger. <br>
+	        
+	        
+	        <h3> 6. Was läuft unter Linux eventuell nicht / nicht so gut?</h3>
+	        <input type="radio" name="frage6" value="a" id="frage6a">a. Büroanwendungen, wie Schreibprogramme oder Tabellenkalkulation <br>
+	        <input type="radio" name="frage6" value="b" id="frage6b">b. YouTube und Videokonferenzen. <br>
+	        <input type="radio" name="frage6" value="c" id="frage6c">c. Mailprogramm und Verschlüsselung <br>
+	        <input type="radio" name="frage6" value="d" id="frage6d">d. Einige Spiele und für Windows entwickelte Programme, sowie einige Schadsoftware. <br>
+	 
+	 
+	        <h3> 7. Was sind Mint, Ubuntu und Kanotix?</h3>
+	        <input type="radio" name="frage7" value="a" id="frage7a">a. Minze ist ein Kraut, also Kräuter <br>
+	        <input type="radio" name="frage7" value="b" id="frage7b">b. Das sind eindeutig Pinguinarten. <br>
+	        <input type="radio" name="frage7" value="c" id="frage7c">c. Das sind Linuxarten (Distributionen). <br>
+	        
+	 
+	        <h3> 8. Was ist LibreOffice?</h3>
+	        <input type="radio" name="frage8" value="a" id="frage8a">a. Ein freies Büro, weil alle im Himeoffice sind. <br>
+	        <input type="radio" name="frage8" value="b" id="frage8b">b. Für das Homeoffice entwickelte Software mit Chatfunktion. <br>
+	        <input type="radio" name="frage8" value="c" id="frage8c">c. Kostenfreie Bürosoftware für Linux, Windows u.a.  <br>
+	        
+	 
+	        <h3> 9. Was ist eine Shell?</h3>
+	        <input type="radio" name="frage9" value="a" id="frage9a">a. Eine hardwareschonende Linux-Distribution im Muscheldesign. <br>
+	        <input type="radio" name="frage9" value="b" id="frage9b">b. Ein Fenster, in das man schreiben kann, um direkt mit dem Betriebssystem zu kommunizieren. <br>
+	        <input type="radio" name="frage9" value="c" id="frage9c">c. Hä, Muscheln, was haben Muscheln mit Pinguinen zu tun?  <br>
+	        <input type="radio" name="frage9" value="d" id="frage9d">d. Ein graphisches User Interface. <br>
+	 
+	       	     
+	        <br>
+	        
+	        <input type="submit" value="Antwort senden" > 
+	        <img src="./Quiz-Tux1.png" alt=" Tuxbild kann nicht geladen werden." >
+	      </form>
+	     
+	   </section>
+      
+      
+      </div>
+      
+         
+   <div>
+       <p><br></p>
+   </div>
+
+
+</td></tr></tbody>
+</table>
+
+</body>
+
+</html>
