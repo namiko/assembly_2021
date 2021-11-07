@@ -4,8 +4,8 @@ This repositor is intended to give you an overview over the features in the worl
   
 Editor: https://thorbjorn.itch.io/tiled
   
-https://play.workadventu.re/_/global/namiko.github.io/assembly_2021/big.json  
-https://wa.tabascoeye.de/_/global/namiko.github.io/assembly_2021/big.json  
+https://play.workadventu.re/_/global/namiko.github.io/assembly_2021/main.json  
+https://wa.tabascoeye.de/_/global/namiko.github.io/assembly_2021/main.json  
   
 How-Tos:  
 https://workadventu.re/map-building/wa-maps.md  
