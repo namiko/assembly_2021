@@ -706,12 +706,30 @@
          "tilewidth":32
         }, 
         {
+         "columns":6,
          "firstgid":3667,
-         "source":"tiles_png\/Iglu\/Wand_Iglu.tsx"
+         "image":"assets\/Iglu\/Wand_Iglu.png",
+         "imageheight":179,
+         "imagewidth":203,
+         "margin":0,
+         "name":"Iglu",
+         "spacing":0,
+         "tilecount":30,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":12,
          "firstgid":3697,
-         "source":"tiles_png\/Iglu\/Tuxe.tsx"
+         "image":"assets\/Iglu\/Tuxe.png",
+         "imageheight":263,
+         "imagewidth":401,
+         "margin":0,
+         "name":"Tuxe",
+         "spacing":0,
+         "tilecount":96,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
