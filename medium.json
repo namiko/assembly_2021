@@ -348,7 +348,7 @@
         {
          "columns":16,
          "firstgid":1,
-         "image":"tiles_png\/structures\/rc3-mullana-floor-wall.png",
+         "image":"assets\/rc3_tiles\/structures\/rc3-mullana-floor-wall.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -361,7 +361,7 @@
         {
          "columns":16,
          "firstgid":257,
-         "image":"tiles_png\/structures\/rc3-mullana-colors-128.png",
+         "image":"assets\/rc3_tiles\/structures\/rc3-mullana-colors-128.png",
          "imageheight":256,
          "imagewidth":512,
          "margin":0,
@@ -374,7 +374,7 @@
         {
          "columns":16,
          "firstgid":385,
-         "image":"tiles_png\/structures\/rc3-mullana-overlay.png",
+         "image":"assets\/rc3_tiles\/structures\/rc3-mullana-overlay.png",
          "imageheight":1024,
          "imagewidth":512,
          "margin":0,
@@ -387,7 +387,7 @@
         {
          "columns":16,
          "firstgid":897,
-         "image":"tiles_png\/inventory\/dk_transports.png",
+         "image":"assets\/rc3_tiles\/inventory\/dk_transports.png",
          "imageheight":96,
          "imagewidth":512,
          "margin":0,
@@ -489,7 +489,7 @@
         {
          "columns":16,
          "firstgid":945,
-         "image":"tiles_png\/community\/cert\/imgs\/tilesheets\/tilesets_deviant_milkian_1.png",
+         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/tilesheets\/tilesets_deviant_milkian_1.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -502,7 +502,7 @@
         {
          "columns":4,
          "firstgid":1201,
-         "image":"tiles_png\/community\/cert\/imgs\/tilesheets\/rc3_style_set.png",
+         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/tilesheets\/rc3_style_set.png",
          "imageheight":224,
          "imagewidth":128,
          "margin":0,
@@ -515,7 +515,7 @@
         {
          "columns":2,
          "firstgid":1229,
-         "image":"tiles_png\/community\/cert\/imgs\/food_and_drinks\/08_right_mate_bottles_flora_full.png",
+         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/food_and_drinks\/08_right_mate_bottles_flora_full.png",
          "imageheight":64,
          "imagewidth":64,
          "margin":0,
@@ -528,7 +528,7 @@
         {
          "columns":15,
          "firstgid":1233,
-         "image":"tiles_png\/community\/bytewerk\/cija_32x32_expansion for Pipoya_CC0.png",
+         "image":"assets\/rc3_tiles\/community\/bytewerk\/cija_32x32_expansion for Pipoya_CC0.png",
          "imageheight":4256,
          "imagewidth":480,
          "margin":0,
@@ -541,7 +541,7 @@
         {
          "columns":7,
          "firstgid":3228,
-         "image":"tiles_png\/deco\/minideko.png",
+         "image":"assets\/rc3_tiles\/deco\/minideko.png",
          "imageheight":416,
          "imagewidth":224,
          "margin":0,
@@ -583,7 +583,7 @@
         {
          "columns":16,
          "firstgid":3319,
-         "image":"tiles_png\/deco\/rc3-mullana-neon-signs.png",
+         "image":"assets\/rc3_tiles\/deco\/rc3-mullana-neon-signs.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -653,7 +653,7 @@
         {
          "columns":8,
          "firstgid":3575,
-         "image":"tiles_png\/deco\/official_rockets.png",
+         "image":"assets\/rc3_tiles\/deco\/official_rockets.png",
          "imageheight":320,
          "imagewidth":256,
          "margin":0,
@@ -666,7 +666,7 @@
         {
          "columns":16,
          "firstgid":3655,
-         "image":"tiles_png\/structures\/rc3-mullana-functionary.png",
+         "image":"assets\/rc3_tiles\/structures\/rc3-mullana-functionary.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -679,7 +679,7 @@
         {
          "columns":33,
          "firstgid":3911,
-         "image":"tiles_png\/cy\/text.png",
+         "image":"assets\/rc3_tiles\/cy\/text.png",
          "imageheight":1056,
          "imagewidth":1056,
          "margin":0,
@@ -741,7 +741,7 @@
         {
          "columns":9,
          "firstgid":5000,
-         "image":"tiles_png\/structures\/mapUtilities.png",
+         "image":"assets\/rc3_tiles\/structures\/mapUtilities.png",
          "imageheight":32,
          "imagewidth":288,
          "margin":0,

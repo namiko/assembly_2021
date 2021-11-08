@@ -301,7 +301,7 @@
         {
          "columns":16,
          "firstgid":1,
-         "image":"tiles_png\/structures\/rc3-mullana-overlay.png",
+         "image":"assets\/rc3_tiles\/structures\/rc3-mullana-overlay.png",
          "imageheight":1024,
          "imagewidth":512,
          "margin":0,
@@ -314,7 +314,7 @@
         {
          "columns":12,
          "firstgid":513,
-         "image":"tiles_png\/structures\/fairydust.png",
+         "image":"assets\/rc3_tiles\/structures\/fairydust.png",
          "imageheight":576,
          "imagewidth":384,
          "margin":0,
@@ -327,7 +327,7 @@
         {
          "columns":9,
          "firstgid":729,
-         "image":"tiles_png\/community\/cert\/imgs\/tilesheets\/mapUtilities.png",
+         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/tilesheets\/mapUtilities.png",
          "imageheight":32,
          "imagewidth":288,
          "margin":0,
@@ -386,7 +386,7 @@
         {
          "columns":16,
          "firstgid":738,
-         "image":"tiles_png\/structures\/rc3-mullana-colors-128.png",
+         "image":"assets\/rc3_tiles\/structures\/rc3-mullana-colors-128.png",
          "imageheight":256,
          "imagewidth":512,
          "margin":0,
@@ -399,7 +399,7 @@
         {
          "columns":16,
          "firstgid":866,
-         "image":"tiles_png\/structures\/rc3-mullana-floor-wall.png",
+         "image":"assets\/rc3_tiles\/structures\/rc3-mullana-floor-wall.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -412,7 +412,7 @@
         {
          "columns":16,
          "firstgid":1122,
-         "image":"tiles_png\/structures\/rc3-mullana-functionary.png",
+         "image":"assets\/rc3_tiles\/structures\/rc3-mullana-functionary.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -425,7 +425,7 @@
         {
          "columns":1,
          "firstgid":1378,
-         "image":"tiles_png\/community\/cert\/imgs\/cert_safety\/01_fire_extinguisher.png",
+         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/cert_safety\/01_fire_extinguisher.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
@@ -438,7 +438,7 @@
         {
          "columns":16,
          "firstgid":1379,
-         "image":"tiles_png\/community\/cert\/imgs\/tilesheets\/AceSet-Hospital.png",
+         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/tilesheets\/AceSet-Hospital.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -451,7 +451,7 @@
         {
          "columns":16,
          "firstgid":1635,
-         "image":"tiles_png\/community\/cert\/imgs\/tilesheets\/misc.png",
+         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/tilesheets\/misc.png",
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
@@ -464,7 +464,7 @@
         {
          "columns":16,
          "firstgid":2659,
-         "image":"tiles_png\/community\/cert\/imgs\/tilesheets\/rc3.png",
+         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/tilesheets\/rc3.png",
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
@@ -477,7 +477,7 @@
         {
          "columns":16,
          "firstgid":3683,
-         "image":"tiles_png\/deco\/dk_lines.png",
+         "image":"assets\/rc3_tiles\/deco\/dk_lines.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -490,7 +490,7 @@
         {
          "columns":16,
          "firstgid":3939,
-         "image":"tiles_png\/community\/cert\/imgs\/tilesheets\/testing_set.png",
+         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/tilesheets\/testing_set.png",
          "imageheight":576,
          "imagewidth":512,
          "margin":0,
@@ -503,7 +503,7 @@
         {
          "columns":16,
          "firstgid":4227,
-         "image":"tiles_png\/deco\/rc3-mullana-neon-signs.png",
+         "image":"assets\/rc3_tiles\/deco\/rc3-mullana-neon-signs.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -673,7 +673,7 @@
         {
          "columns":7,
          "firstgid":4483,
-         "image":"tiles_png\/deco\/minideko.png",
+         "image":"assets\/rc3_tiles\/deco\/minideko.png",
          "imageheight":416,
          "imagewidth":224,
          "margin":0,
@@ -686,7 +686,7 @@
         {
          "columns":2,
          "firstgid":4574,
-         "image":"tiles_png\/community\/cert\/imgs\/food_and_drinks\/05_mate_bottles_full.png",
+         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/food_and_drinks\/05_mate_bottles_full.png",
          "imageheight":64,
          "imagewidth":64,
          "margin":0,
@@ -699,7 +699,7 @@
         {
          "columns":2,
          "firstgid":4578,
-         "image":"tiles_png\/community\/cert\/imgs\/food_and_drinks\/07_right_mate_bottles_flora.png",
+         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/food_and_drinks\/07_right_mate_bottles_flora.png",
          "imageheight":64,
          "imagewidth":64,
          "margin":0,
@@ -712,7 +712,7 @@
         {
          "columns":1,
          "firstgid":4582,
-         "image":"tiles_png\/community\/cert\/imgs\/food_and_drinks\/11_coffee2.png",
+         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/food_and_drinks\/11_coffee2.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
@@ -725,7 +725,7 @@
         {
          "columns":1,
          "firstgid":4583,
-         "image":"tiles_png\/community\/cert\/imgs\/misc\/13_winkekatze.png",
+         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/misc\/13_winkekatze.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
@@ -738,7 +738,7 @@
         {
          "columns":2,
          "firstgid":4584,
-         "image":"tiles_png\/community\/cert\/imgs\/leipzig_messe\/13_stone_tile_hatch.png",
+         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/leipzig_messe\/13_stone_tile_hatch.png",
          "imageheight":64,
          "imagewidth":64,
          "margin":0,
@@ -751,7 +751,7 @@
         {
          "columns":33,
          "firstgid":4588,
-         "image":"tiles_png\/cy\/text.png",
+         "image":"assets\/rc3_tiles\/cy\/text.png",
          "imageheight":1056,
          "imagewidth":1056,
          "margin":0,
