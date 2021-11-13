@@ -5,16 +5,9 @@ import {bootstrapExtra} from "@workadventure/scripting-api-extra";
 // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure.
 bootstrapExtra().catch(e => console.error(e));
 
-var currentPopup: any = undefined;
-const today = new Date();
-const time = today.getHours() + ":" + today.getMinutes();
-
-
+var latestSteps = new Array();
 
 WA.onInit().then(() => {
-
-
-    console.log('Current player name: ', WA.player.name);
     let snowsound = WA.sound.loadSound("assets/mp3/67243__robban87__snowstep_shortened.mp3");
     let config = {
         volume : 0.5,
@@ -29,11 +22,15 @@ WA.onInit().then(() => {
     let isOnSnow = false;
     WA.room.onEnterZone('SnowSteps', () =>{
         isOnSnow = true;
-        WA.room.setTiles([{x: 2586, y: 1412, tile: 100000000, layer: 'footsteps'}]);
+        // WA.room.setTiles([{x: 2586, y: 1412, tile: 'step_up', layer: 'footsteps'}]);
     })
 
     WA.room.onLeaveZone('SnowSteps', () =>{
         isOnSnow = false;
+
+        latestSteps.forEach(function (removable){
+            WA.room.setTiles([{x: removable.x, y: removable.y, tile: null, layer: 'footsteps'}])
+        })
     })
 
 
@@ -41,19 +38,21 @@ WA.onInit().then(() => {
         if(isOnSnow){
             if(event.moving){
                 snowsound.play(config);
-                let x = event.x;
-                let y = event.y;
-                let d = event.direction;
+                let x = Math.round(event.x/32);
+                let y = Math.round(event.y/32);
+                let d = 'step_' + event.direction;
+                console.log(event, x, y, d);
 
-                // WA.room.setTiles([{x: x, y: y, tile: 100000000, layer: 'footsteps'}]);
-                //
-                //
-                // WA.room.setTiles([{x: 2586, y: 1412, tile: 100000000, layer: 'footsteps'}]);
+                WA.room.setTiles([{x: x, y: y, tile: d, layer: 'footsteps'}]);
 
 
-                // WA.room.loadTileset("localhost:8080/Steps.json").then((firstId) => {
-                //     WA.room.setTiles([{x: x, y: y, tile: 'step_up', layer: 'footsteps'}]);
-                // })
+                if(latestSteps.length == 3){
+                    let removable = latestSteps.shift();
+                    WA.room.setTiles([{x: removable.x, y: removable.y, tile: null, layer: 'footsteps'}])
+                }
+
+                latestSteps.push({x: x, y: y});
+
             }
             else{
                 snowsound.stop();
