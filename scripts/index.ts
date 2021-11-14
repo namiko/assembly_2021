@@ -10,6 +10,20 @@ let latestSteps = new Array();
 let isOnSnow = false;
 let snowsound: Sound;
 
+let estimateTimeOfDay = function (){
+    const hour = new Date().getUTCHours();
+
+    if(hour<18){
+        WA.room.hideLayer('Daemmerung');
+    }
+    if(hour<20){
+        WA.room.hideLayer('Abend');
+    }
+    if(hour<22){
+        WA.room.hideLayer('Nacht');
+    }
+}
+
 let estimatePosition = function (event:any){
     let xString = 'center';
     let yString = 'center';
@@ -109,6 +123,8 @@ let doSound = function (){
 
 
 WA.onInit().then(() => {
+    estimateTimeOfDay();
+
     snowsound = WA.sound.loadSound("assets/mp3/67243__robban87__snowstep_shortened.mp3");
     doSound();
 });
