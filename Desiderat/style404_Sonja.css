@@ -1,0 +1,15 @@
+ 
+.dieBox{
+ border-style: outset;
+ 
+ border-color: #66B5FF;
+ 
+ 
+ border-top-width: 5px;
+ border-left-width: 7px;
+ border-right-width: 5px;
+ border-bottom-width: 7px;
+ 
+ padding: 1.2em;
+ text-align: center;
+ }
