@@ -193,7 +193,7 @@
         {
          "columns":8,
          "firstgid":10,
-         "image":"..\/assembly-kascha\/assets\/externalTileset\/pipoya\/Pipoya RPG Tileset 32x32\/Pipoya RPG Tileset 32x32\/LightShadow_pipo.png",
+         "image":"assets\/externalTileset\/pipoya\/Pipoya RPG Tileset 32x32\/Pipoya RPG Tileset 32x32\/LightShadow_pipo.png",
          "imageheight":192,
          "imagewidth":256,
          "margin":0,
@@ -206,7 +206,7 @@
         {
          "columns":5,
          "firstgid":58,
-         "image":"..\/assembly-kascha\/assets\/externalTileset\/kascha\/beach.png",
+         "image":"assets\/externalTileset\/kascha\/beach.png",
          "imageheight":928,
          "imagewidth":160,
          "margin":0,
@@ -824,7 +824,7 @@
         {
          "columns":8,
          "firstgid":203,
-         "image":"..\/assembly-kascha\/assets\/externalTileset\/kascha\/vorhang_.png",
+         "image":"assets\/externalTileset\/kascha\/vorhang_.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -1318,7 +1318,7 @@
         {
          "columns":4,
          "firstgid":267,
-         "image":"..\/assembly-kascha\/assets\/externalTileset\/kascha\/beach-wall.png",
+         "image":"assets\/externalTileset\/kascha\/beach-wall.png",
          "imageheight":448,
          "imagewidth":128,
          "margin":0,
