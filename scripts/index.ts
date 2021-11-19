@@ -13,14 +13,16 @@ let snowsound: Sound;
 let estimateTimeOfDay = function (){
     const hour = new Date().getUTCHours();
 
-    if(hour<18){
-        WA.room.hideLayer('Daemmerung');
+    if(hour>=18 || hour<=9){
+        WA.room.showLayer('Daemmerung');
     }
-    if(hour<20){
-        WA.room.hideLayer('Abend');
+    if(hour>=20 || hour<=7){
+        WA.room.showLayer('Feuerschimmer');
+        WA.room.showLayer('Beleuchtung');
+        WA.room.showLayer('Abend');
     }
-    if(hour<22){
-        WA.room.hideLayer('Nacht');
+    if(hour>=22 || hour<=5){
+        WA.room.showLayer('Nacht');
     }
 }
 
@@ -123,7 +125,14 @@ let doSound = function (){
 
 
 WA.onInit().then(() => {
+    WA.room.hideLayer('Feuerschimmer');
+    WA.room.hideLayer('Beleuchtung');
+    WA.room.hideLayer('Daemmerung');
+    WA.room.hideLayer('Abend');
+    WA.room.hideLayer('Nacht');
     estimateTimeOfDay();
+    setInterval(estimateTimeOfDay,600000);
+
 
     snowsound = WA.sound.loadSound("assets/mp3/67243__robban87__snowstep_shortened.mp3");
     doSound();

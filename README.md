@@ -6,6 +6,7 @@ Editor: https://thorbjorn.itch.io/tiled
   
 https://play.workadventu.re/_/global/namiko.github.io/assembly_2021/main.json  
 https://wa.tabascoeye.de/_/global/namiko.github.io/assembly_2021/main.json  
+https://party.tabascoeye.de/_/global/data.tabascoeye.de/maptest/TrixTrain/saal_test.json
   
 How-Tos:  
 https://workadventu.re/map-building/wa-maps.md  
