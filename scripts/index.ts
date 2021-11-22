@@ -2,6 +2,7 @@
 
 import {bootstrapExtra} from "@workadventure/scripting-api-extra";
 import {Sound} from "@workadventure/iframe-api-typings/Api/iframe/Sound/Sound";
+import {getLayersMap} from '@workadventure/scripting-api-extra';
 
 // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure.
 bootstrapExtra().catch(e => console.error(e));
@@ -15,14 +16,31 @@ let estimateTimeOfDay = function (){
 
     if(hour>=18 || hour<=9){
         WA.room.showLayer('Daemmerung');
+        WA.room.hideLayer('Feuerschimmer');
+        WA.room.hideLayer('Beleuchtung');
+        WA.room.hideLayer('Abend');
+        WA.room.hideLayer('Nacht');
     }
-    if(hour>=20 || hour<=7){
+    else if(hour>=20 || hour<=7){
+        WA.room.showLayer('Daemmerung');
+        WA.room.showLayer('Feuerschimmer');
+        WA.room.showLayer('Beleuchtung');
+        WA.room.showLayer('Abend');
+        WA.room.hideLayer('Nacht');
+    }
+    else if(hour>=22 || hour<=5){
+        WA.room.showLayer('Nacht');
+        WA.room.showLayer('Daemmerung');
         WA.room.showLayer('Feuerschimmer');
         WA.room.showLayer('Beleuchtung');
         WA.room.showLayer('Abend');
     }
-    if(hour>=22 || hour<=5){
-        WA.room.showLayer('Nacht');
+    else{
+        WA.room.hideLayer('Nacht');
+        WA.room.hideLayer('Daemmerung');
+        WA.room.hideLayer('Feuerschimmer');
+        WA.room.hideLayer('Beleuchtung');
+        WA.room.hideLayer('Abend');
     }
 }
 
@@ -122,16 +140,83 @@ let doSound = function (){
     })
 }
 
+let teamPlay = function (){
+    WA.room.onEnterZone('tA', () =>{
+        writeToVar('a', false);
+    })
+
+    WA.room.onEnterZone('tB', () =>{
+        writeToVar('b', false);
+    })
+
+
+    WA.room.onEnterZone('tC', () =>{
+        writeToVar('c', false);
+    })
+
+    WA.room.onEnterZone('tD', () =>{
+        writeToVar('d', false);
+    })
+
+    WA.room.onLeaveZone('tA', () =>{
+        writeToVar('a', true);
+    })
+
+    WA.room.onLeaveZone('tB', () =>{
+        writeToVar('b', true);
+    })
+
+
+    WA.room.onLeaveZone('tC', () =>{
+        writeToVar('c', true);
+    })
+
+    WA.room.onLeaveZone('tD', () =>{
+        writeToVar('d', true);
+    })
+}
+
+let writeToVar = function(valName:string, del:boolean){
+    let value = WA.player.name;
+
+    let counter;
+    let x:any = WA.state.loadVariable('teamCounter');
+    if(typeof x === 'string' ){
+        counter = JSON.parse(x);
+        counter['count'] = 0
+    }else{
+        counter = x;
+    }
+
+    let currentPlayer = counter[valName];
+
+    if(currentPlayer === value && del){
+            counter[valName] = null;
+            counter.count = counter.count - 1;
+    }
+
+    if(!currentPlayer){
+        counter[valName] = value;
+        counter.count = counter.count + 1;
+    }
+
+
+
+    WA.state.saveVariable('teamCounter', counter);
+}
+
+
 
 
 WA.onInit().then(() => {
-    WA.room.hideLayer('Feuerschimmer');
-    WA.room.hideLayer('Beleuchtung');
-    WA.room.hideLayer('Daemmerung');
-    WA.room.hideLayer('Abend');
-    WA.room.hideLayer('Nacht');
-    estimateTimeOfDay();
     setInterval(estimateTimeOfDay,600000);
+
+    teamPlay();
+    WA.state.onVariableChange('teamCounter').subscribe((value: any) => {
+        if(value.count === 4){
+            WA.room.showLayer('feuerwerk');
+        }
+    });
 
 
     snowsound = WA.sound.loadSound("assets/mp3/67243__robban87__snowstep_shortened.mp3");
