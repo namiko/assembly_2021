@@ -14,7 +14,7 @@ let snowsound: Sound;
 let estimateTimeOfDay = function (){
     const hour = new Date().getUTCHours();
 
-    if(hour>=18 || hour<=9){
+    if(hour>=17 || hour<=9){
         WA.room.showLayer('Daemmerung');
         WA.room.hideLayer('Feuerschimmer');
         WA.room.hideLayer('Beleuchtung');
@@ -209,12 +209,16 @@ let writeToVar = function(valName:string, del:boolean){
 
 
 WA.onInit().then(() => {
+    estimateTimeOfDay();
     setInterval(estimateTimeOfDay,600000);
 
     teamPlay();
     WA.state.onVariableChange('teamCounter').subscribe((value: any) => {
         if(value.count === 4){
-            WA.room.showLayer('feuerwerk');
+            WA.room.showLayer('feuerwerk_1');
+            WA.room.showLayer('feuerwerk_2');
+            WA.room.showLayer('feuerwerk_3');
+
         }
     });
 
