@@ -14,7 +14,7 @@ let snowsound: Sound;
 let estimateTimeOfDay = function (){
     const hour = new Date().getUTCHours();
 
-    if(hour>=18 || hour<=9){
+    if(hour>=17 || hour<=9){
         WA.room.showLayer('Daemmerung');
         WA.room.hideLayer('Feuerschimmer');
         WA.room.hideLayer('Beleuchtung');
@@ -209,6 +209,7 @@ let writeToVar = function(valName:string, del:boolean){
 
 
 WA.onInit().then(() => {
+    estimateTimeOfDay();
     setInterval(estimateTimeOfDay,600000);
 
     teamPlay();
