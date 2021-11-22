@@ -215,7 +215,10 @@ WA.onInit().then(() => {
     teamPlay();
     WA.state.onVariableChange('teamCounter').subscribe((value: any) => {
         if(value.count === 4){
-            WA.room.showLayer('feuerwerk');
+            WA.room.showLayer('feuerwerk_1');
+            WA.room.showLayer('feuerwerk_2');
+            WA.room.showLayer('feuerwerk_3');
+
         }
     });
 
