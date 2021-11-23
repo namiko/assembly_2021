@@ -819,6 +819,12 @@
          "id":97,
          "name":"feuerwerk_2",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"visible",
+                 "type":"string",
+                 "value":"{{{ initiator }}}"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":150,
@@ -831,6 +837,12 @@
          "id":98,
          "name":"feuerwerk_3",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"visible",
+                 "type":"string",
+                 "value":"{{{ initiator }}}"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":150,
