@@ -82,7 +82,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"openwebsite",
+                 "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/www.haecksen.org\/women\/carol-shaw\/"
                 }],
