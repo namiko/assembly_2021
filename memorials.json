@@ -413,7 +413,7 @@
                 {
                  "name":"playAudioLoop",
                  "type":"string",
-                 "value":"https:\/\/github.com\/namiko\/assembly_2021\/tree\/master\/assets\/syl_tilesets\/BossaBossa.mp3"
+                 "value":"assets\/syl_tilesets\/BossaBossa.mp3"
                 }],
          "type":"objectgroup",
          "visible":true,
