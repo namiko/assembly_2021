@@ -33,7 +33,7 @@
                  "value":"assets\/syl_tilesets\/BossaBossa.mp3"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":30,
          "x":0,
          "y":0
