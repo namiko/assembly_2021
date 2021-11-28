@@ -411,7 +411,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"url",
+                 "name":"playAudioLoop",
                  "type":"string",
                  "value":"https:\/\/github.com\/namiko\/assembly_2021\/tree\/master\/assets\/syl_tilesets\/BossaBossa.mp3"
                 }],
