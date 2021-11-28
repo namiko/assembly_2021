@@ -1004,7 +1004,7 @@
         {
          "columns":9,
          "firstgid":1,
-         "image":"I:\/01_GitSpace\/private\/assembly_2021\/assets\/rc3_tiles\/community\/cert\/imgs\/tilesheets\/mapUtilities.png",
+         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/tilesheets\/mapUtilities.png",
          "imageheight":32,
          "imagewidth":288,
          "margin":0,
@@ -1045,7 +1045,7 @@
         {
          "columns":8,
          "firstgid":10,
-         "image":"I:\/01_GitSpace\/private\/assembly_2021\/assets\/externalTileset\/pipoya\/Pipoya RPG Tileset 32x32\/Pipoya RPG Tileset 32x32\/[A]_type3\/[A]Dirt1-Dirt3_pipo.png",
+         "image":"assets\/externalTileset\/pipoya\/Pipoya RPG Tileset 32x32\/Pipoya RPG Tileset 32x32\/[A]_type3\/[A]Dirt1-Dirt3_pipo.png",
          "imageheight":192,
          "imagewidth":256,
          "margin":0,
@@ -1058,7 +1058,7 @@
         {
          "columns":8,
          "firstgid":58,
-         "image":"I:\/01_GitSpace\/private\/assembly_2021\/assets\/externalTileset\/pipoya\/Pipoya RPG Tileset 32x32\/Pipoya RPG Tileset 32x32\/[A]_type3\/[A]Dirt3_pipo.png",
+         "image":"assets\/externalTileset\/pipoya\/Pipoya RPG Tileset 32x32\/Pipoya RPG Tileset 32x32\/[A]_type3\/[A]Dirt3_pipo.png",
          "imageheight":192,
          "imagewidth":256,
          "margin":0,
@@ -1071,7 +1071,7 @@
         {
          "columns":8,
          "firstgid":106,
-         "image":"I:\/01_GitSpace\/private\/assembly_2021\/assets\/externalTileset\/pipoya\/Pipoya RPG Tileset 32x32\/Pipoya RPG Tileset 32x32\/LightShadow_pipo.png",
+         "image":"assets\/externalTileset\/pipoya\/Pipoya RPG Tileset 32x32\/Pipoya RPG Tileset 32x32\/LightShadow_pipo.png",
          "imageheight":192,
          "imagewidth":256,
          "margin":0,
@@ -1084,7 +1084,7 @@
         {
          "columns":8,
          "firstgid":154,
-         "image":"I:\/01_GitSpace\/private\/assembly_2021\/assets\/externalTileset\/pipoya\/Pipoya RPG Tileset 32x32\/Pipoya RPG Tileset 32x32\/[Base]BaseChip_pipo.png",
+         "image":"assets\/externalTileset\/pipoya\/Pipoya RPG Tileset 32x32\/Pipoya RPG Tileset 32x32\/[Base]BaseChip_pipo.png",
          "imageheight":4256,
          "imagewidth":256,
          "margin":0,
@@ -1097,7 +1097,7 @@
         {
          "columns":64,
          "firstgid":1218,
-         "image":"I:\/01_GitSpace\/private\/assembly_2021\/assets\/externalTileset\/pipoya\/Wasser_ani_Wip.png",
+         "image":"assets\/externalTileset\/pipoya\/Wasser_ani_Wip.png",
          "imageheight":192,
          "imagewidth":2048,
          "margin":0,
@@ -2803,7 +2803,7 @@
         {
          "columns":60,
          "firstgid":1602,
-         "image":"I:\/01_GitSpace\/private\/assembly_2021\/assets\/externalTileset\/FreeGameAssets\/Decor_Wip.png",
+         "image":"assets\/externalTileset\/FreeGameAssets\/Decor_Wip.png",
          "imageheight":1080,
          "imagewidth":1920,
          "margin":0,
@@ -2816,7 +2816,7 @@
         {
          "columns":60,
          "firstgid":3582,
-         "image":"I:\/01_GitSpace\/private\/assembly_2021\/assets\/externalTileset\/FreeGameAssets\/Building_Wip.png",
+         "image":"assets\/externalTileset\/FreeGameAssets\/Building_Wip.png",
          "imageheight":1080,
          "imagewidth":1920,
          "margin":0,
@@ -2829,7 +2829,7 @@
         {
          "columns":16,
          "firstgid":5562,
-         "image":"I:\/01_GitSpace\/private\/assembly_2021\/assets\/externalTileset\/pipoya\/Snow_Wip.png",
+         "image":"assets\/externalTileset\/pipoya\/Snow_Wip.png",
          "imageheight":384,
          "imagewidth":512,
          "margin":0,
@@ -2951,7 +2951,7 @@
         {
          "columns":32,
          "firstgid":5754,
-         "image":"I:\/01_GitSpace\/private\/assembly_2021\/assets\/externalTileset\/pipoya\/Pipoya RPG Tileset 32x32\/Pipoya RPG Tileset 32x32\/[A]_type3\/[A]WaterFall2_pipo.png",
+         "image":"assets\/externalTileset\/pipoya\/Pipoya RPG Tileset 32x32\/Pipoya RPG Tileset 32x32\/[A]_type3\/[A]WaterFall2_pipo.png",
          "imageheight":192,
          "imagewidth":1024,
          "margin":0,
@@ -3905,7 +3905,7 @@
         {
          "columns":8,
          "firstgid":5946,
-         "image":"I:\/01_GitSpace\/private\/assembly_2021\/assets\/externalTileset\/pipoya\/Customs_Wip.png",
+         "image":"assets\/externalTileset\/pipoya\/Customs_Wip.png",
          "imageheight":4256,
          "imagewidth":256,
          "margin":0,
@@ -3918,7 +3918,7 @@
         {
          "columns":14,
          "firstgid":7010,
-         "image":"I:\/01_GitSpace\/private\/assembly_2021\/assets\/fire_column_derivated.png",
+         "image":"assets\/fire_column_derivated.png",
          "imageheight":96,
          "imagewidth":448,
          "margin":0,
@@ -4184,7 +4184,7 @@
         {
          "columns":5,
          "firstgid":7052,
-         "image":"I:\/01_GitSpace\/private\/assembly_2021\/assets\/externalTileset\/kascha\/beach.png",
+         "image":"assets\/externalTileset\/kascha\/beach.png",
          "imageheight":928,
          "imagewidth":160,
          "margin":0,
@@ -4342,7 +4342,7 @@
         {
          "columns":28,
          "firstgid":7197,
-         "image":"I:\/01_GitSpace\/private\/assembly_2021\/assets\/shimmer.png",
+         "image":"assets\/shimmer.png",
          "imageheight":640,
          "imagewidth":896,
          "margin":0,
@@ -5476,7 +5476,7 @@
         {
          "columns":126,
          "firstgid":7757,
-         "image":"I:\/01_GitSpace\/private\/assembly_2021\/assets\/fireworks_derivated.png",
+         "image":"assets\/fireworks_derivated.png",
          "imageheight":1920,
          "imagewidth":4032,
          "margin":0,
@@ -36450,7 +36450,7 @@
         {
          "columns":12,
          "firstgid":15317,
-         "image":"I:\/01_GitSpace\/private\/assembly_2021\/assets\/externalTileset\/pipoya\/Unorganized Parts\/Unorganized Parts\/addwork.png",
+         "image":"assets\/externalTileset\/pipoya\/Unorganized Parts\/Unorganized Parts\/addwork.png",
          "imageheight":2048,
          "imagewidth":384,
          "margin":0,
@@ -36470,6 +36470,19 @@
          "name":"ship",
          "spacing":0,
          "tilecount":156,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":31,
+         "firstgid":16241,
+         "image":"assets\/Meer\/Meer_klein_desiderat.png",
+         "imageheight":584,
+         "imagewidth":1000,
+         "margin":0,
+         "name":"Meer_klein_desiderat",
+         "spacing":0,
+         "tilecount":558,
          "tileheight":32,
          "tilewidth":32
         }],
