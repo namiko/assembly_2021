@@ -233,28 +233,26 @@
         }, 
         {
          "draworder":"topdown",
-         "id":28,
-         "name":"Kopie von floorLayer",
+         "id":30,
+         "name":"Installation_Video",
          "objects":[
                 {
-                 "height":220,
-                 "id":4,
+                 "height":202,
+                 "id":8,
                  "name":"",
                  "properties":[
                         {
-                         "name":"Video",
+                         "name":"url",
                          "type":"string",
                          "value":"Desiderat\/Beispiel_Installation_MX-Linux_vga.avi"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"website",
                  "visible":true,
-                 "width":340,
-                 "x":202.846153846154,
-                 "y":0.46153846153845
+                 "width":319,
+                 "x":213,
+                 "y":12
                 }],
-         "offsetx":-3.84615384615381,
-         "offsety":1.53846153846155,
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -289,8 +287,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":29,
- "nextobjectid":8,
+ "nextlayerid":31,
+ "nextobjectid":9,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
