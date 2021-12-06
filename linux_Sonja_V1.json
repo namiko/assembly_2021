@@ -290,6 +290,12 @@
  "nextlayerid":31,
  "nextobjectid":9,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"url",
+         "type":"string",
+         "value":"Desiderat\/Beispiel_Installation_MX-Linux_vga.avi"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
  "tileheight":32,
