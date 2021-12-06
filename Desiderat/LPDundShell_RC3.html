@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<HTML lang="de">
+   
+<HEAD>
+   <meta charset="utf-8">
+   <META name="robots" content="noindex">
+    <style>
+        
+        
+        body {
+           font-family: DejaVu, Arial, Helvetica, sans-serif;
+           background-image: url("TuxSherlockDesiderat.gif");
+        }
+        
+        h1.warnung {
+            font-size: 28px;
+            text-align: center;
+            padding: 50px;
+            background-color: red;
+            
+        }
+        
+        img {
+           border: 0;
+        }
+
+        table.kopf {
+            /* width=980 align=center bgColor="#C0C0C0" border=0 cellpadding="20" */
+            width: 980px;
+            background-color: #0099cc;
+            
+            border: 0px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            
+        }
+        
+        
+        table.tabelleMitte {
+            padding: 10px;
+        }
+        
+        table.desktopUmgebung {
+            font-size: 15px;
+            font-style: italic;
+            border: 1px solid black;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+        }
+
+        table.tabelleRaspberry {
+            padding: 2px;
+        }
+
+        
+        /* Style the buttons that are used to open and close the accordion panel */
+        .accordion {
+           /* background-color: #FFFF00; */
+           background-color: #fff000;
+           color: #000000;
+           cursor: pointer;
+           padding: 18px;
+           width: 100%;
+           text-align: left;
+           /* border: none; */
+           border: 2px solid red;
+           border-radius: 10px;
+           outline: none;
+           transition: 0.4s;
+           font-size: 18px;
+        }
+
+        /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+        .active, .accordion:hover {
+           background-color: #FFB900;
+           /*background-color: #f5bd0c; ffb400*/
+        }
+
+        /* Style the accordion panel. Note: hidden by default */
+    
+        .panel {
+           padding: 0px 20px 20px 20px;
+           /* padding-left 10px; */
+           display: none;
+           background-color: white;
+           overflow: hidden;
+           /* border-left-style: solid; */
+           font-size: 18px;
+           border-radius: 10px;
+        }
+    
+        
+        .accordion:after {
+           content: '\025BC'; /* Unicode character gefuelltes Dreieck nach unten */
+           font-size: 18px;
+           color: #000000;
+           float: right;
+           margin-left: 5px;
+        }
+
+        .active:after {
+           content: "\025B2"; /* Unicode character gefuelltes Dreieck nach oben */
+        }
+
+        .ueberschrift1 {
+            font-size: 32px;
+            text-align: center;
+        }
+        
+        .ueberschriftCCK {
+            font-size: 26px;
+            text-align: center;
+        }
+        
+        .einleitung {
+            font-size: 18px;
+            font-style: italic;
+        }
+
+
+        /* Style the buttons that are used to open and close the accordion panel */
+        .accordion2 {
+           /* background-color: #FFFF00; */
+           background-color: #fff000;
+           color: #000000;
+           cursor: pointer;
+           padding: 18px;
+           width: 100%;
+           text-align: left;
+           /* border: none; */
+           border: 2px solid red;
+           border-radius: 10px;
+           outline: none;
+           transition: 0.4s;
+           
+        }
+
+        /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+        .active2, .accordion2:hover {
+           background-color: #FFB900;
+        }
+
+        /* Style the accordion panel. Note: hidden by default */
+    
+        .panel2 {
+           padding: 0px 20px 20px 20px;
+           /* padding-left 10px; */
+           display: none;
+           background-color: white;
+           overflow: hidden;
+           /* border-left-style: solid; */
+           font-size: 18px;
+           border-radius: 10px;
+
+        }
+
+    
+        .accordion2:after {
+           content: '\025BC'; /* Unicode character gefuelltes Dreieck nach unten */
+           font-size: 18px;
+           color: #000000;
+           float: right;
+           margin-left: 5px;
+        }
+
+        .active2:after {
+           content: "\025B2"; /* Unicode character gefuelltes Dreieck nach oben */
+        }
+        
+        .trennlinie {
+            
+            margin-bottom: 0px;    
+            
+        }
+        
+        .ohneAbstandOben {
+            margin-top: 2px;
+            font-size: 16px;
+        }
+        
+        
+        
+        .textallgemein {
+            font-size: 18px;
+        }
+
+        
+        .zentrieren {
+            text-align: center;
+        }
+        
+        .textRechts {
+            text-align: right;
+        }
+        
+        .tabelle-Desktop-Umgebung {
+            width: 120pt;
+            padding-top: 10pt;
+
+        }
+
+        .zentriereBild {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            /* margin-bottom: auto; */
+        }
+
+        
+        .zentriereTitelbild {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: -20px;
+            margin-bottom: 20px;
+            /* margin-bottom: auto; */
+        }
+        
+        .bildrechts {
+            display: block;
+            margin-left: auto;
+            /* margin-right: auto; */
+        }
+
+                
+        .bildbeschriftung {
+            font-size: 14px;
+            font-style: italic;
+        }
+        
+        .bildbeschriftung2 {
+            font-size: 14px;
+            font-style: italic;
+            text-align: center;
+            /* margin-bottom: 30px; */
+        }        
+
+        .fett {
+            font-weight: bold;
+        }
+
+        .anleihe {
+            margin: 40px 20px;
+            font-size: 18px;
+            font-style: italic;
+            /* background: grey; */
+        }
+
+        .abspan {
+            margin: 40px 20px;
+            font-size: 20px;
+            font-style: italic;
+
+            /* background: grey; */
+        }
+    
+
+        .rechtliches {
+            /* margin: 40px 20px; */
+            margin: 40px 20px;
+            padding: 20px 20px 20px 20px;
+            border: 4px solid red;
+            border-radius: 10px;
+            font-size: 18px;
+
+        }
+   
+    </style>
+
+
+
+<link rel="shortcut icon" type="image/x-icon" href="./EuS_Favicon.ico">
+
+<!-- Folgende zwei Zeilen machen das selbe, die erste wird von älterne Browsern verstanden, daher hier doppelt-->
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="author" content="Sonja und Eckardt">
+
+</HEAD>
+<BODY>
+<header>
+
+</header>
+
+		
+<!--........................ Einleitung von Desiderat:.............................-->	
+
+<TABLE class="kopf">
+<TBODY><TR><TD>
+<div class="zentrieren">
+	
+<h1>Warum Linux statt Windows verwenden?</h1>
+<div>
+Ok, hier für Linux zu werben ist ein wenig wie Eulen nach Athen, äh, Pinguine in die Arktis zu tragen, 
+aber vielleicht watscheln hier ja nicht nur erfahrene Linuxfreunde herum?  
+
+<br><br>Ach, Linux kenne ich doch schon. ...Weiterwatschel<br><br>
+
+Haalt, nicht wegwatscheln! Oder haben alle Deine Freunde schon Linux? Ich meine: ALLE!? Du bist aber ein schöner Freund,
+ watschelst einfach weiter, statt denen eine schöne Überraschung mitzubringen.
+<br><br>
+<b>Gut dann nun also Willkommen liebe Pinguine, Fensterfreunde und alle anderen Wesen. Hier gibt es ein paar gute Argumente 
+dafür dem Pinguin eine Chance zu geben.</b>
+<br><br>So, nun aber leise weiter schleichen, sonst muss ich Linux am Ende noch bei Omi installieren und Support machen.
+<br><br>Hallo, was soll das immer mit den Pinguinen, bin ich im Zoo gelandet?
+<br><br> Oh man, das ist ja schlimmer als Flöhe hüten. Nichts mit Zoo, der Pinguin ist das Logo von Linux:<br>
+
+Wikipedia zitiert aus der Biograpie von Linux Torwalds, dem Initiator bei der Entwicklung des Linux-Kernels:
+<br> „Sein Pinguin sollte glücklich aussehen, so als hätte er gerade eine Maß Bier genossen und den besten Sex seines Lebens gehabt.
+ […]  Als hätte Daisy Duck sich auf einer Antarktis-Kreuzfahrt vergessen und einen wilden One-Night-Stand mit einem einheimischen
+ Federvieh gehabt.“ aus Torvalds, Linus: Just for Fun S. 151 auf https://de.wikipedia.org/wiki/Tux_(Maskottchen)
+<br>
+<br>
+</div>
+
+<!--........................Linuxvorstellung Sherlock:.............................-->		
+<h1>Dauer Online Linux Presentation Day (LPD)</h1></div>
+   
+   <table class="tabelleMitte">
+      <tr>
+         
+         <td><a href="https://l-p-d.org/de/start" target="_blank"><img src="LPD-logo.300x150.transparent.png" height="135" width="270" alt="Bild kann nicht geladen werden."></a></td>
+         <td>
+             <div class="einleitung">
+                 <p>Ersetzen kann dieser Online-Beitrag den eigentlichen Linux Presentation Day nicht, 
+                 aber vielleicht einen Einblick geben.</p>
+                 <p>Nachstehend werden Fragen beantwortet, 
+                 die an den vorangegangenen LPDs immer wieder von Interesse waren.</p>
+                 <p>Klicken Sie einfach auf die Fragen und erhalten eine Antwort. 
+                 Zum Einklappen einfach erneut auf die Frage klicken.
+                 </p>
+                 <p>Hinweise zur Darstellung:<br>Externe Links werden in einem neuen TAB ge&ouml;ffnet.<br>JavaScript muss aktiviert sein.</p>
+             </div>
+         </td>
+         
+       
+      </tr>
+   </table>
+
+   <button class="accordion">Was ist Linux?</button>
+   <div class="panel">
+      <p>Linux ist ein Betriebssystem. Ein Betriebssytem wiederum ist die notwendige Basis f&uuml;r das Arbeiten mit einem Computer. 
+      Linux bezeichnet eigentlich den Linux-Kern (Kernel). Es wird damit aber auch das Betriebssytem mit 
+      zus&auml;tzlicher Software bezeichnet. Meist ist alles kostenlos im Internet herunterzuladen. 
+      Augen auf, wenn Geld verlangt wird.
+      </p>
+      <p>Linux ist Open Source, das bedeutet, dass der Quellcode der Software offen zur Verf&uuml;gung steht. 
+      Damit besteht die M&ouml;glichkeit selber nach Fehlern zu suchen, aber auch &Auml;nderungen an der Software 
+      vozunehmen und sie so weiter zu entwickeln.
+      </p>
+   </div>   
+
+   <button class="accordion">Was ist eine Linux-Distribution?</button>
+   <div class="panel">
+      <p>Als Distribution bezeichnet man die B&uuml;ndelung des Linux-Kernel mit weiterer Software 
+      und meist der Software f&uuml;r die Desktop-Umgebung zu einem Paket.<i>(*)</i></p>
+      <p>Es gibt Distributionen als Live-System, diese werden von einem externen Datentr&auml;ger 
+      gestartet und laufen dann vollst&auml;ndig im Arbeitsspeicher, ohne dass eine Installation notwendig ist. 
+      Meist haben diese auch ein Installationsprogramm, mit dem das Betriebssystem bei Bedarf 
+      dann dauerhaft auf die Festplatte bzw. auf die SSD installiert werden kann.</p>
+      <hr class="trennlinie">
+      <p class="ohneAbstandOben"><i>(*) Anmerkung: Wird Linux nicht auf einem einfachen Rechner betrieben 
+      (Desktop-PC, Laptop, Netbook), sondern auf einem Server, 
+      dann wird auf eine Desktop-Umgebung verzichtet.</i></p>
+
+   </div> 
+
+  
+   <button class="accordion">Kann Linux etwas f&uuml;r mich sein und wie sieht es mit Software aus?</button>
+   <div class="panel">
+      <p>Wer nur im Internet surft, E-Mails und Texte erstellen will, der kann ohne Probleme Linux einsetzen. 
+      Es stehen verschiedene Browser und Office-Pakete zur Verf&uuml;gung. Skypen und Youtube-Videos 
+      anzuschauen, stellt ebenfalls kein Problem dar. F&uuml;r die Bildbearbeitung steht GIMP zur Verf&uuml;gung. 
+      Welche Programme als Alternativen zur Windows-Welt zur Verf&uuml;gung stehen, kann der 
+      Auflistung entnommen werden, die &uuml;ber den Link ge&ouml;ffnet werden kann. Diese Liste zeigt nur einen 
+      sehr sehr winzigen Ausschnitt der unter Linux zur Verf&uuml;gung stehenden Software. 
+      Wer speziellere Programme verwendet, der sollte vorher pr&uuml;fen, ob es das Wunschprogramm auch 
+      als Version f&uuml;r Linux gibt oder ein gleichwertiger Ersatz f&uuml;r Linux 
+      verf&uuml;gbar ist.<br><a href="Linux-Windows-Vergleich.png" target="_blank">
+          Gegen&uuml;berstellung Software f&uuml;r Windows und Linux</a>
+      </p>
+      <p>Um selber Programme erstellen zu k&ouml;nnen, stehen viele Programmier- und 
+      Skriptsprachen zur Verf&uuml;gung. Hier ein kleiner Ausschnitt: C, Python, Java, Perl, Scratch, Tcl/Tk, ...</p>
+      <p>Software installiert man bei Linux bequem &uuml;ber die entsprechende Paketverwaltung, 
+      in der man einfach nach der gew&uuml;nschten Software suchen kann, um sie dann auszuw&auml;hlen, 
+      danach herunterzuladen und zu installieren (alles per Mausklick). Es besteht jedoch auch die 
+      M&ouml;glichkeit alles per Befehlszeile zu installieren.
+      </p>
+      <p>Programme, die unter dem Betriebssystem Windows laufen, lassen sich nicht einfach unter 
+      Linux installieren. Eine ganze Reihe von Windowsprogrammen lassen sich jedoch mittels 
+      Wine zum Laufen bringen. F&uuml;r Wine gibt es zudem ein grafisches Frontend namens Playonlinux. 
+      Zudem gibt es auch eine kommerzielle Version von Wine mit Namen CrossOver, gegebenenfalls läuft 
+      damit das gewünschte Windows-Programm. Da es jedoch unter Linux gen&uuml;gend 
+      alternative Programme gibt, ist dieser Weg vielleicht nicht notwendig.
+      </p>
+      <p>Mit dem unter Linux weit verbreiteten LibreOffice lassen sich wenn n&ouml;tig 
+      Textdokumente im docx-Format speichern und Word-Dokumente lesen. 
+      Sinnvoller ist aber die Bereitstellung im PDF-Format mit eingebetteter Schrift, dann 
+      bleibt gew&auml;hrleistet, dass das Layout vollst&auml;ndig erhalten bleibt, 
+      egal auch, ob Linux- oder Windowswelt.
+      </p>
+      <p>Linux wird auch gerne als Betriebssystem f&uuml;r Server eingesetzt. 
+      Entsprechend kann man auch einen Fileserver und Webserver mit Datenbank installieren 
+      und im heimischen Netz betreiben.
+      </p>
+   </div>
+
+   <button class="accordion">Wird meine Hardware unterst&uuml;tzt?</button>
+   <div class="panel">
+      <p>Ob der eigene PC, das Laptop oder das Netbook unterst&uuml;tzt wird, kann meist problemlos 
+      mit einem Live-System getestet werden. Man startet dazu das Linux-Live-System von einer 
+      CD, DVD oder einem USB-Stick. Das Tolle bei der Methode: Solange man nicht mit der Installation 
+      beginnt, bleibt das Ursprungssystem unber&uuml;hrt.</p>
+      <p><i>Hinweis: Eine 32-Bit-Version kann auch auf einem 64-Bit-Prozessor laufen. Eine 64-Bit-Version 
+      kann jedoch nicht auf einem 32-Bit-Prozessor laufen.</i></p>
+      <p>Wie es mit der Unterst&uuml;tzung des eigenen Druckers und des Scanners aussieht, sollte im ersten 
+      Anlauf beim Hersteller in Erfahrung gebracht werden.</p>
+      <p>Wenn der Hersteller den Drucker nicht unterst&uuml;tzt, kann vielleicht das 
+      Drucksystem CUPS (Common Unix Printing System) zusammen mit den Treibern des 
+      Gutenprint-Projektes (zuvor Gimp-Print) helfen. Welcher Drucker unterstützt wird, ist unter 
+      <a href="http://gimp-print.sourceforge.net/p_Supported_Printers.php" target="_blank">http://gimp-print.sourceforge.net/p_Supported_Printers.php</a> 
+      herauszufinden. Wenn alle Stricke rei&szlig;en, kann gegebenenfalls ein kostenpflichtiger Treiber 
+      von Turboprint die L&ouml;sung sein 
+      (<a href="https://www.turboprint.de/printers.html" target="_blank">https://www.turboprint.de/printers.html</a>).</p>
+       <p>Und bei Scannern? Bei Scannern sorgt zudem die Schnittstelle SANE (Scanner Access Now Easy) für das Arbeiten 
+       mit dem Scanner. Ob der eigene Scanner jedoch unterst&uuml;tzt wird und zudem auch wie gut, kann unter  
+      <a href="http://www.sane-project.org/sane-mfgs.html" target="_blank">http://www.sane-project.org/sane-mfgs.html</a> 
+      in Erfahrung gebracht werden. Und auch hier gibt es ansonsten eine kostenpflichtige L&ouml;sung mit Namen VueScan.
+       </p>
+      <p>F&uuml;r die Zukunft: Generell sollte man sich vor einer Neuanschaffung von Hardware beim Hersteller 
+      &uuml;ber die Unterst&uuml;tzung von Linux informieren.</p>
+   </div>
+
+   <button class="accordion">Aspekte zur Wahl der Linux-Distribution - 32-Bit, 64-Bit, alte und neue Rechner</button>
+   <div class="panel">
+      <p>Immer wieder werden Fehler in Software gefunden, einige davon  
+      betreffen die Sicherheit. Um in solchen F&auml;llen die Sicherheit von Software zu 
+      gew&auml;hrleisten, sind Updates notwendig. Eine wichtige Frage bei der 
+      Wahl der Distribution ist daher wie lange Updates geliefert werden. 
+      Es gibt dabei Distributionen mit langem Support (LTS = long time support). 
+      Der liegt je nach Distribution zwischen 3 und 5 Jahren.
+      </p>
+      <p>Ein anderer Ansatz sind Distributionen mit sogenannten Rolling Releases. 
+      Diese Distributionen werden st&auml;ndig mit Aktualisierungen versorgt. 
+      </p>
+      <p>Um sich also Arbeit zu ersparen, w&auml;hlt man zur Installation 
+      daher eine Distribution mit LTS oder mit Rolling Releases.
+      </p>
+      <p>Beim Einsatz auf alten Rechnern empfiehlt es sich zudem Distributionen einzusetzen, die schlanke 
+      Desktop-Umgebungen zur Verf&uuml;gung stellen. Nach und nach werden jedoch immer weniger 
+      Distributionen auch als 32-Bit Version angeboten, 
+      das schr&auml;nkt die Wahl der zur Verf&uuml;gung stehenden Distributionen ein.
+      </p>
+      <p>Tipp: W&auml;hlen Sie die Distribution nach der Leistungsf&auml;higkeit des Rechners 
+      und danach aus, wie Ihnen die Bedienung der Desktop-Umgebung gef&auml;llt.
+      <a href="Desktop-Umgebungen-OLPD.htm" target="_self">Hier geht es zur Ansicht einiger Desktop-Umgebungen</a>
+      </p>
+      
+      Links zu Internetseiten von einigen bew&auml;hrten Distributionen (ist nur ein Ausschnitt):<br>
+      <ul>
+         <li>lubuntu <a href="https://lubuntu.me/" target="_blank">https://lubuntu.me/</a></li>
+         <li>xubuntu <a href="https://xubuntu.org/" target="_blank">https://xubuntu.org/</a></li>
+         <li>ubuntu <a href="https://ubuntu.com/" target="_blank">https://ubuntu.com/</a></li>
+         <li>Linux Mint <a href="https://linuxmint.com/" target="_blank">https://linuxmint.com/</a></li>
+         <li>openSUSE <a href="https://www.opensuse.org/" target="_blank">https://www.opensuse.org/</a> (verschiedene Desktop-Umgebungen m&ouml;glich)</li>
+      </ul>
+      
+      <p><i>Hinweis: Eine Linux-Distribution als 32-Bit-Version kann auch auf 
+      einem 64-Bit-Prozessor laufen. Eine 64-Bit-Version 
+      kann jedoch nicht auf einem 32-Bit-Prozessor laufen.</i>
+      </p>
+      <p>Nun ein Versuch die Distributionen nach Beanspruchung der Hardware einzuordnen (von wenig nach st&auml;rker):<br>
+      lubuntu (LXDE, LXQt), xubuntu (XFCE), Linux Mint (XFCE), Linux Mint (MATE), ubuntu, openSUSE (KDE)
+      </p>
+      Es gibt extrem viele Distributionen. Nun noch ein kleiner Blick auf ein paar weitere davon ...
+         <ul>
+            <li><i>MX Linux</i> mit XFCE als Desktop-Umgebung gut f&uuml;r nicht ganz so 
+            schnelle Rechner geeignet. Wird laut DistroWatch.com derzeit besonders oft aufgerufen. 
+            <a href="https://distrowatch.com/dwres.php?resource=popularity" target="_blank">
+                (https://distrowatch.com/dwres.php?resource=popularity)
+                </a></li>
+            <li><i>Manjaro Linux</i> steht zum Download in verschiedenen Versionen mit unterschiedlichen 
+            Desktop-Umgebungen zur Verf&uuml;gung. Updates als Rolling Releases. 
+            Hat hohes Ranking bei DistroWatch.com.
+            </li>
+            <li><i>Zorin OS</i> richtet sich an Umsteiger von Windows auf Linux. Achtung: 
+            Sendet Pings zu Servern der Entwickler in Irland, das kann jedoch abgestellt 
+            werden. Die Ultimate-Version ist zudem kostenpflichtig. </li>
+            <li><i>Puppy Linux</i> extrem schlank mit schlanken Anwendungen. 
+            Versorgung mit Updates?</li>
+         </ul>
+      
+      <p>Wenn es um die Beanspruchung der Hardware geht, kann auch die Wahl 
+      der verwendeten Software helfen, damit das System fl&uuml;ssiger l&auml;uft.
+      Folgende Programme lohnen einen Blick:
+      Abiword (Textverarbeitung), Gnumeric (Tabellenkalkulation), XFE (File Explorer).
+      </p>
+   </div> 
+
+ 
+   <button class="accordion">Fazit - auch f&uuml;r die Umwelt</button>
+   <div class="panel">
+      <p>Linux ist ein vollwertiges Betriebssystem! Die Linux-Distributionen 
+      stehen meist zum kostenlosen Download zur Verf&uuml;gung. Durch den Einsatz von 
+       leichtgewichtigen Linux-Distributionen konnten und k&ouml;nnen zudem 
+       viele PCs, Laptops und Netbooks vor dem Elektronikschrott bewahrt werden. 
+       Die Verl&auml;ngerung der Lebenszyklen ist ein wichtiger Beitrag f&uuml;r die 
+       Umwelt, denn f&uuml;r die Herstellung von PCs, Laptops, etc. wird viel Energie 
+       ben&ouml;tigt und f&uuml;r die Gewinnung der notwendigen Rohstoffe wird zudem die 
+       Umwelt erheblich in Mitleidenschaft gezogen. Auch die Entsorgung der 
+       Ger&auml;te ist nicht unproblematisch.</p>
+      <p class="zentrieren">Ein Dankesch&ouml;n an alle, die Linux und all die 
+      weitere freie Software entwickeln.</p>
+   </div> 
+
+
+   <button class="accordion">Linux, Open Source und weitere Computerclubs in der Region und in Schleswig-Holstein (Auswahl)</button>
+   <div class="panel">
+      <p>Einfach mal zusammen getragen...</p>
+      <p><a href="https://www.kieler-linuxtage.de/" target="_blank">Kiellux - Die Kieler Open Source und Linux Tage</a></p>
+      <p><a href="https://www.jugendhaus-klausdorf.de/gruppen/cck-computer-club-klausdorf.html" target="_blank">
+         Computer Club Klausdorf (CCK)</a>
+      </p>
+      <p><a href="http://linux-schwentinental.de" target="_blank">http://linux-schwentinental.de</a></p>
+      
+      <p><a href="https://toppoint.de" target="_blank">Die Toppoint - Der Hacker- und Makerspace in Kiel</a></p>
+      <p><a href="https://www.lugfl.de" target="_blank">Linux User Group Flensburg e.V. (LUG-FL)</a></p>
+      <p><a href="https://www.cciz.de/" target="_blank">Computerclub Itzehoe e.V.</a></p>
+      <p><a href="http://www.scc-neumuenster.de/" target="_blank">Senioren-Computer-Club-Neum&uuml;nster e.V.</a></p>
+      
+   </div> 
+   
+<!--........................ Shelleinführung Desiderat:.............................-->	
+
+	
+<article>
+<h3>Die Shell - Eine Einführung für absolute Anfänger</h2>
+
+  
+	<button class="accordion" type="button" onclick="myFunction()">Was ist die Shell?</button>
+	<div class="panel">
+		<p>
+		Die Shell ist eine Software, die es ermöglicht mit dem Betriebssystem zu interagieren. 
+		Damit lässt sich z.B. weitere Software starten und dem Dateisystem arbeiten 
+		(z.B. Kopieren und löschen von Dateien). Es gibt verschiedene Shells, wir verwenden die Bash. 
+		Die Bash ist die Standard-Shell auf den meisten Linux-Systemen. <br>
+		Die Shell läuft im Terminal (Konsole), das ist ein einfaches graphisches User Interface (GUI), also eine Möglichkeit, um als Anwender (User) mit dem Betriebssystem (hier: Linux) zu kommunizieren.
+		Die eigentliche Verwendung geschieht kommandozeilenbasiert, d.h. der User schreibt Befehle in das Fenster.<br>
+		Die Bash (Bourne-again-shell ist eine Weiterentwicklung der Bourne-Shell). 
+		Daher gibt man auch zu Beginn eines Shellskripts (Programm das mittels Shell ausgeführt wird) #!/bin/bash für die bash an, was wir jedoch nicht benötigen werden. Denn wir lassen unsere Befehle hier alle direkt ausführen. 
+		</p>
+	</div>   
+
+	<button class="accordion" type="button" onclick="myFunction()">Vorbemerkungen</button>
+		<div class="panel">
+			<p> <b>Es ist als normaler Anwender nicht notwendig die Shell zu benutzen. Wir lernen im Folgenden die Shell als zusätzliches tolles Werkzeug kennen.</b>
+			<br><br>Achtung: Das Betriebssystem Linux reagiert empfindlich auf Groß- und Kleinschreibung (case sensitiv), d.h. MeineDatei.odt ist eine andere Datei als meinedatei.odt und der Befehl ls kann nicht als Ls geschrieben werden.
+			<br>
+			<br>Wenn die Shell keine Fehlermeldung ausgibt, hat funktioniert, was man getan hat.
+			<br>
+			<br>Das Terminal in dem die Shell ausgeführt wird, reagiert nur bedingt auf die Maus. 
+				Man muss sich mit dem Cursor an die Stelle bewegen, an die man möchte.
+			<br>
+			<br> 
+			<b>Tab </b> für das Autovervollständigen verwenden. Beispielsweise kann man statt "Schreibtisch" nur "Schr" eingeben und dann die Tabtaste bestätigen.
+			Gibt es mehrere Ordner mit diesem Beginn, so muss man mehr eingeben bis es eindeutig ist.<br>
+			<b>Cursor (hoch/runter) </b> zum Scrollen durch die Befehle verwenden. Das geht sogar noch, nachdem man die Shell zu gemacht hatte. <br>
+			<b>Strg Shift Cursor(hoch/runter) </b> zum Blättern <br>
+			<b>Strg Shift c </b> zum Kopieren und <b>Strg Shift V </b> zum Einfügen <br>
+			<b>history </b> zeigt zuvor verwendete Shellbefehle an. <br>
+			<b>Strg r </b> durchsuchen der History der Shell <br>
+			<b>Strg c </b> bricht Programm ab und schließt die Shell <br>
+			<b>Strg Alt F1 </b> oder mit(F2, ...) um eine weitere Shell zu öffnen <br>
+			<b>Strg Alt F7 </b> geht zurück zur Gui <br>
+		    </p>
+		</div>
+   <button class="accordion" type="button" onclick="myFunction()"> Wo finde ich die Shell?</button>
+   <div class="panel">
+      <p>Da es viele Linux-Distributionen (Arten) gibt, kann man es nicht allgemein angeben.<br>
+       Irgendwo haben Sie in der Regel jedoch ein Menü und dort z.B. den Unterpunkt Systemwerkzeuge. Dort finden Sie "Terminal". 
+		Das ist die GUI mit unserer Shell drin. <br>
+		<br> <b>Beispielsweise unter Linux Mint: </b> <br>
+		<img src="Bilder_Sonja/Shell-Bild1_Terminal-finden.png"  height="350" alt="Sorry, das Bild fehlt leider">
+		<br>Nach Doppelklick auf "Terminal" öffnet sich ein kleines Fenster. Darin können wir nun schreiben.
+      </p>
+   </div>    
+
+   <button class="accordion" type="button" onclick="myFunction()"> Die Shell im Terminal</button>
+   <div class="panel">
+      <p>Das Programm, in dem die Shell läuft, 
+		ist bei jeder Linux-Distribution etwas anders und kann daher einen anderen Namen haben (Terminal, LXTerminal, o.ä.). 
+		Die Menüpunkte (soweit vorhanden) können etwas anders heißen und auch die Einstellungsmöglichkeiten sind unterschiedlich. <br>
+		<br>
+		<b>Tip:</b> Notieren Sie sich die vorhanden Einstellungen bevor Sie diese ändern, so können Sie diese später wieder verwenden, falls Sie etwas ungewollt verstellen.
+		<br>
+		<br>Auch bei Ihrem Terminal sollte es oben eine Menüleiste geben. Unter Bearbeiten ist der Menüpunkt Profileinstellungen (Linux Mint Cinnemon) oder Einstellungen (Lubuntu). 
+		<br>Bei Linux Mint befinden sich unter Profileinstellungen mehrere Reiter. Im Reiter Allgemein kann beispielsweise die Schriftgröße geändert werden. 
+		Im Reiter Farben haben Sie viele Möglichkeiten mit Farbeinstellungen herum zu spielen. 
+		Im Reiter Hintergrundtyp können Sie die Transparenz des Fensters einstellen, indem Sie den Regler verschieben.
+		<br>
+		<br>Bei Lubuntu ist das Terminal LXTerminal ähnlich aufgebaut, aber die Einstellungsmöglichkeiten etwas geringer. Es befinden sich unter Einstellungen mehrere Reiter. 
+		Im Reiter Stil können Schriftgröße und Farben eingestellt werden, unter Darstellung kann beispielsweise die Fenstergröße geändert werden.
+		Der Reiter Tastaturkürzel befindet sich hier ebenfalls direkt unter Einstellungen. Hier kann man sehen welche Tastenkombinationen man verwenden kann, um sich die Arbeit zu erleichtern.
+		<br>
+		<br>Bei Linux Mint gibt es im Terminal den Menüpunkt Hilfe. Unter diesem ist der Menüpunkt "Inhalt". Hier können Sie weitere Einstellungsmöglichkeiten im Handbuch nachlesen.
+		Eventuell gibt es das auch bei Ihrer Distribution.<br>
+		<br>Wenn man lange genug herum spielt, kann dann beispielsweise sowas bei raus kommen:
+		<br>
+		<img src="Bilder_Sonja/Shell-Bild2_Terminal.png"  height="350" alt="Sorry, das Bild fehlt leider">
+		<br>Mit weiterem Spielkram beschäftigen wir uns später.
+     </p>
+   </div> 
+	<br>
+	<br> 
+    
+	<button class="accordion" type="button" onclick="myFunction()"> Erste Begegnung mit der Shell</button>
+		<div class="panel">
+			<p>Wir beschäftigen uns gleich zu Anfang mit den wichtigen Fragen des Lebens.
+				<br>
+				<br>Wer bin ich eigentlich? Falls Sie sich mal bestätigen lassen wollen, wer Sie sind, können Sie <b>who</b> oder <b> whoami </b> (Who I am = wer bin ich) eingeben. 
+					Die Antwort ist ihr Benutzername.
+				<br>
+				<br>Wo bin ich eigentlich? Diese Frage stellen wir, indem wir <b> pwd </b> (print working directory) eingeben. Die Antwort erhalten wir direkt im Terminalfenster unter dem, was wir geschrieben haben.
+					In der Regel lautet die Antwort beim ersten Betreten der Shell <b> /home/benutzername </b>
+					Statt benutzername steht bei Ihnen ihr Benutzername. Sie wissen nun, dass Sie in ihrem Homeverzeichnis sind und wer Sie sind.<br>
+				<br>Die Verzeichnisstruktur in Linux ist etwas anders als in Windows.
+					Es gibt keine Laufwerksbuchstaben. Alles wird wie eine Datei verstanden, z.B. auch eine externe
+					Festplatte, die ich eingehängt habe.<br>Der Verzeichnisbaum beginnt am Wurzelverzeichnis (root) <b>/</b> . <br>
+				<br>
+				<b>Der Verzeichnisbaum (Das müssen Sie sich nicht merken!):</b><br>
+				<b>/ </b> = Wurzelverzeichnis. Von hier aus entspringen die weiteren Verzeichnisse mit deren Unterverzeichnissen: <br>
+				<b>/bin </b> = Von i.d.R. allen Usern ausführbare Dateien (Programme= binaries), die Linux für den Systemstart benötigt<br>
+				<b>/boot</b> = Dateien, die für den Systemstart benötigt werden (EFI, Bootloader) <br>
+				<b>/dev </b> = Devices (= Geräte) <br>
+				<b>/etc </b> = Konfigurations- und Systemeinstellungen <br>
+				<b>/home </b> = Benutzerdateien: Jeder User hat sein eigenes Homeverzeichnis, das wie sein Benutzername heißt und unter dem Verzeichnis /home liegt. <br>
+				<b>/lib </b> = Bibliotheken, die vom System bzw. Programmen benötigt werden <br>
+				<b>/media </b> = Speichermedien, wie CDs, USB-Sticks, ...<br>
+				<b>/mnt </b> = mount für temporär eingehängte Partitionen (also normalerweise leer) <br>
+				<b>/proc </b> = Laufende Prozesse <br>
+				<b>/root </b> = Dies ist das Homeverzeichnis von root. Es liegt nicht bei den anderen Homeverzeichnissen, falls es mal Probleme dort gibt (z.B. Wartung). 
+					Er startet also an der Wurzel.<br>
+				<b>/sbin </b> = Binärdateien, die nur für den Superuser verfügbar sind <br>
+				<b>/srv </b> = Services, d.h. Dienste <br>
+				<b>/sys </b> = Systemdateien <br>
+				<b>/tmp </b> = temporäres Verzeichnis, das i.d.R. nach festem Zeitplan automatisch gelöscht wird. Oft
+					können mehrere User darauf zugreifen. <br>
+				<b>/usr </b>= Enthält die meisten Systemtools, Bibliotheken und installierten Programme <br>
+				<b>/var </b> = Weitere Dateien mit Zusatzinformation <br>
+				<br>Auf welchem Rechner bin ich eigentlich? Tippe <b> hostname </b> ein. Es erscheint der Name ihres Rechners. <br>
+			</p>
+		</div>  
+   
+	<button class="accordion" type="button" onclick="myFunction()"> Bewegen im Dateiverzeichnis</button>
+	<div class="panel">
+		<p> Wir schauen wieder zuerst wo wir sind. Also <b> pwd </b> eingeben. Sollte bei Ihnen nicht /home/IhrBenutzername stehen, dann geben Sie bitte <b>cd </b> ein. 
+			Dadurch gelangen Sie in Ihr Homeverzeichnis.<br>
+			Sollten Sie sich mal in der Shell verirren, kommen Sie mit <b> cd </b> immer wieder nachhause. <br>
+			Von dem Befehl cd (cd = change directory oder wechsle das Verzeichnis) gibt es viele Varianten, die alle mit der Bewegung im Dateiverzeichnis zu tun haben.
+			<br>
+			<b>cd .. </b> geht ein Verzeichnis hoch <br>
+			<b>cd - </b> geht ins vorherige Verzeichnis <br>
+			<b>cd  </b>  geht ins Homeverzeichnis <br>
+			<b>cd ~ </b> geht ebenfalls ins Homeverzeichnis (Die ~ bekommt man mit Hilfe der Taste AltGr) <br>
+			<b>cd / </b> geht ins Wurzelverzeichnis <br>
+			<b>cd. </b> geht über absoluten Pfad, den ich nach dem Punkt angebe <br>
+			<b>cd Verzeichnisname </b> wechselt in das genannte Verzeichnis, wenn es in dem verzeichnis liegt, in dem ich gerade bin. <br>
+		</p>
+	</div>    
+	<button class="accordion" type="button" onclick="myFunction()"> Dateien und Ordner anlegen, verschieben, umbenennen und löschen</button>
+	<div class="panel">
+		<p> Wir wollen nun in diesem Verzeichnis einen Ordner anlegen. Hierfür geben wir <b>mkdir </b> und den <b>Ordnernamen </b> ein. Z. B. <b>mkdir Testordner </b> legt den Ordner mit dem Namen Testordner an. 
+			<br>Woran sehen wir nun, dass es geklappt hat? Mit dem Befehl <b> ls </b> können Sie sich anzeigen lassen, was alles in dem Verzeichnis liegt, in dem Sie gerade sind. Geben Sie also <b>ls </b> ein. 
+				Im Eingabefenster sollten nun mehrere Einträge sein, unter anderem Testordner. <br>
+				Zu vielen Befehlen gibt es Parameter, diese verfeinern sozusagen den Befehl. So gibt <b>ls -al </b> auch versteckte Dateien an (-a) und zwar in Langform (-l). 
+				Will man eine Verzeichnisstruktur angezeigt bekommen, so kann man <b>ls -R  </b> eingeben.
+			<br>
+			<br>Wie kommen wir nun da rein? Geben Sie <b> cd Testordner </b> ein. Nun sind Sie in dem Ordner. Zum Überprüfen geben Sie <b>pwd </b>ein.
+				Eine Textdatei legen wir mittels touch an. Geben Sie <b>touch Test.txt </b> ein. Zum Überprüfen geben Sie wieder <b>ls </b> ein.
+			<br>
+			<br>Wir wollen den Testordner nun aber gerne direkt auf dem Schreibtisch (oder Desktop) liegen haben. Dazu müssen wir aus dem Ordner raus gehen. Wir gehen eine Ebene nach oben, indem wir <b>cd .. </b> eingeben. 
+				Wieder <b> ls </b> und es wird wieder alles im Homeverzeichnis angezeigt, unter anderem also auch unser Testordner.
+			<br> Verschieben können wir diesen nun (inklusive der Datei, die wir darin haben), indem wir <b>mv</b> (move) eingeben und angeben von wo (dazwischen Leertaste) nach wo verschoben werden soll. 
+				Wir geben also <b>mv ~/Testordner /home/IhrBenutzername/Schreibtisch/ </b>ein. 
+			<br>Was macht denn die <b>~ </b> in dem Befehl? Sie zeigt an, dass wir im Homeverzeichnis starten.
+				Hat das Verschieben denn nun geklappt? Sie können mittels <b>cd Schreibtisch </b> (oder Desktop) in den Ordner <b>Schreibtisch</b> wechseln und mit <b>ls </b> erfahren Sie was dort vorhanden ist. 
+				Außerdem können Sie direkt auf ihrem Schreibtisch nachsehen, ob dort der Testordner ist und ob darin die Datei <b>Test.txt</b> liegt.
+			<br>
+			Mit dem Befehl <b>mv </b> ist es außerdem möglich eine Datei umzubenennen. Wir prüfen, ob wir uns in dem Verzeichnis befinden, in dem die Datei liegt. Dort geben wir <b>mv Dateiname Neuer Dateiname </b> ein
+			<br>
+			<br>Nun wollen wir eine Datei oder ein Verzeichnis kopieren. Mit Verzeichnis ist ein Ordner gemeint, in dem sich andere Ordner und Dateien befinden könnte. 
+				Hierfür benötigen wir den Befehl <b>cp </b> (=copy), also <b> cp JetzigerOrdner Zielordner </b>.
+				Prüfen Sie bitte, ob Sie sich dem richtigen Verzeichnis befinden, indem Sie mittels <b>ls </b>nachsehen, ob der Ordner Testordner vorhanden ist. Diesen Ordner kopieren wir nun mit allem, was sich darin befindet.  
+				Geben Sie hierfür folgendes ein <b>cp -r /home/IhrBenutzername/Schreibtisch/Testordner /home/IhrBenutzername/ </b>
+				Nun kopieren wir die Datei <b>Test.txt </b> in ihr Homeverzeichnis.<br>
+			<b>cp /home/IhrBenutzername/Schreibtisch/Testordner/Test.txt /home/IhrBenutzername/ </b><br>
+			<br>Dem Befehl <b>cp </b> können Parameter mitgegeben werden. <br>
+			<b>cp -r </b>bewirkt, dass alle Ordner und Unterordner inkl. Dateien kopiert werden. <br>
+			<b>cp -vr </b>zeigt an, was gerade geschieht, während, wie eben, kopiert wird. <br>
+			<b>cp -n</b> verhindert, dass eine Datei durch das Kopieren einer anderen Datei überschrieben werden würde. <br>
+			<b>cp -i </b>Wir müssen hier erst bestätigen, falls eine Datei durch das Kopieren einer anderen Datei überschrieben werden würde. <br>
+			<b>cp -u </b>Die Datei wird nur dann kopiert, wenn sich eine ältere Version davon im Zielordner befindet. <br>
+			<br>Wir können auch Dateien und Ordner löschen. Dies geschieht mit dem Befehl <b>rm </b>(=remove). <br>
+			<b>Achtung, es wird wirklich gelöscht und nicht in den Papierkorb verschoben. Achten Sie unbedingt darauf, ob Sie wirklich im richtigen Verzeichnis sind. </b>
+				Wir haben unseren Ordnern und Dateien den Namensbestandteil Test gegeben, damit wir sofort sehen, dass diese auch gefahrlos wieder gelöscht werden können.
+				Wir wollen jetzt die <b>Test.txt</b>, die wir gerade kopiert haben, wieder löschen. <br>
+			<b>rm  /home/IhrBenutzername/Test.txt </b><br>
+				Befinden wir uns bereits in dem Ordner, in dem die Datei liegt, so reicht <b>rm Dateiname </b> aus <br>
+			<br>Dem Befehl <b>rm </b> können Parameter mitgegeben werden. <br>
+			<br>
+			<b>rm -r </b> bewirkt, dass alle Ordner und Unterordner inkl. Dateien gelöscht werden. <br>
+			<b>rm -vr </b>zeigt an, was gerade geschieht, während, wie eben, gelöscht wird. <br>
+			<b>rm -ri </b> Wir müssen hier bei jedem Löschen erst bestätigen, dass wirklich gelöscht werden soll. <br>
+		</p>
+	</div>    
+   
+	<button class="accordion" type="button" onclick="myFunction()"> Etwas in eine Datei schreiben und anzeigen lassen</button>
+	<div class="panel">
+		<p>Wir gehen in die Shell und geben pwd ein. Sie sollten im Ordner Schreibtisch (oder Desktop) sein. Falls nicht, so gelangen Sie dort hin mittels <b>cd ~ </b> und im nächsten Schritt <b> cd Schreibtisch </b> (oder cd Desktop).
+				Jetzt wechseln wir in den Ordner Testordner mittels <b>cd Testordner</b>.  
+				Nun lassen wir uns mit ls die Datei Test.txt anzeigen. 
+			<br>Es ist auch möglich Inhalt direkt in eine Datei schreiben zu lassen, die es noch nicht gibt. Geben Sie hierfür <b> date > textfile.txt </b> ein. Auch hierbei wird eine Datei angelegt. 
+				Es wird außerdem das aktuelle Datum mit Uhrzeit hineingeschrieben.<br> 
+			<br>Verwendet man <b> >></b> statt <b> > </b>, so wird es ans Ende in eine Datei geschrieben ohne den Inhalt dort zu überschreiben.
+		</p>
+   </div>   
+   
+  <button class="accordion" type="button" onclick="myFunction()">Suchen</button>
+   
+   <div class="panel">
+		<p>Manchmal suchen wir eine Datei oder einen Ordner, wissen aber weder genau wo sie liegt noch den genauen Namen.
+			Mit dem Befehl <b>find </b> können wir sie suchen.<br>
+			<br>
+			<b>find / Test.txt </b> sucht die Datei überall (Das kann eine Weile dauern, es läuft viel Text durch das Terminal) <br>
+			<b>find Test.txt </b> sucht die Datei Test.txt im aktuellen Verzeichnis. <br>
+			<b>find ~ Test.txt </b> sucht die Datei in Ihrem Homeverzeichnis. <br>
+			<b>find /Schreibtisch/Testordner Test.txt </b> sucht die Datei in dem Verzeichnis Schreibtisch und im Verzeichnis Testordner <br>
+				Wenn wir nicht mehr den genauen Namen kennen, können wir sogenannte Wildcards verwenden. <br>
+			<b>* </b>steht für beliebig viele Zeichen <br>
+			<b>? </b>steht für genau ein Zeichen <br>
+			<br>Wir benötigen zum Suchen außerdem die Parameter <b>-name </b> oder <b>-inname </b>. <br>
+			<b>-name</b> für Suche nach den genauen Datei oder Verzeichnisnamen <br>
+			<b>-iname </b>für Suche nach dem den Datei- oder Verzeichnisnamen ohne Groß- oder Kleinschreibung zu beachten. <br>
+			<br>this.classLi Beispielsweise sucht <b>find -iname Tes*</b> alle Dateien und Verzeichnisse, deren Name mit Tes beginnen und beliebig viele weitere Zeichen haben.
+				Es wird die Groß- und Kleinschreibung ignoriert. <br>
+			<br>Programme können wir mittels <b>whereis </b> finden. Versuchen Sie es mal, mit einem der Programm, die Sie auf Ihrem Rechner installiert haben (z.B. Firefox, LibreOffice). 
+				Sie scheinen auf ihrem (Schreibtisch) Desktop zu liegen. Oft ist das aber nur eine Verknüpfung und das Programm selbst liegt woanders. 
+				Versuchen Sie beispielsweise <b>whereis firefox</b>. Es wird Ihnen der Pfad angezeigt, wo das gesuchte Programm liegt.
+			</p>
+	</div>       
+   
+	<button class="accordion" type="button" onclick="myFunction()"> Hilfen</button>
+	<div class="panel">
+		<p>
+			<b>Befehlsname -h</b> bzw. <b>-help </b>für kürzere Hilfe <br>
+			<b>info Befehlsname </b>gibt etwas ausführlichere Info <br>
+			<b>whatis Befehlsname </b> gibt an was der Befehl macht <br>
+			<b>apropos Befehlsname </b> erklärt kurz den Befehl <br>
+			<br>Ausführliche Infomationen zu den Shellbefehlen finden Sie im Manual. Das können Sie direkt in der Shell öffnen, indem Sie <b>man Befehlsname </b>eingeben. <br>
+			<br>
+			<b>Das Manual:</b> <br>
+			<b>man man</b> gibt Info zu Optionen für man aus: Oberfläche für die Online-Referenzhandbücher <br>
+			<b>man 1</b> oder (2,...) Befehlsname  zeigt Kapitel 1 (2,...) zum Befehl an. Beispielsweise <b>man 1 time</b> zeigt das erste Kapitel zum time Befehl an. <br>
+			<b>/Suchbegriff</b> zum suchen im Manual <br>
+			<b>n </b>und <b>p </b>zum Blättern im Manual <br>
+			<b>q </b>um das Manual zu verlassen <br>
+		</p>
+	</div>   
+	<br>
+	<br>     
+   
+	<button class="accordion" type="button" onclick="myFunction()"> Systemadministration</button>
+	<div class="panel">
+		<p>In der Linuxwelt wird auch die Systemadministration oft mittels Shell erledigt. Hierzu gehört das Installieren und Deinstallieren von Software (Programme).
+			Aber auch die Rechtevergabe, also das Festlegen wer in einem Verzeichnis oder einer Datei was tun darf.<br>
+		<br>
+		<b>Info Rechtevergabe:</b><br>Wir lassen uns mittels <b>ls -al </b> alle Dateien und Verzeichnisse in Langform anzeigen. Das sieht nun etwas kryptisch aus. 
+			Bei den folgenden Beispielen ist es bunt eingefärbt und das sieht bei Ihnen farblich wahrscheinlich ganz anders aus. Lassen Sie sich davon nicht irritieren.<br>
+		<br>
+		<b>Wir erhalten beispielsweise folgendes für einen Ordner: </b><br>
+			<img src="Bilder_Sonja/Shell-Bild3_Ordner-Userrechte.png"  height="20" alt="Sorry, das Bild fehlt leider">
+		<br>Da es mit einem d beginnt, handelt es sich um ein Verzeichnis. Dann folgen die Rechte, der Autor, Datum, Uhrzeit und der Dateiname.
+			Mein Benutzername ist sonja, da ich die Dateien erstellt habe, bin ich auch der Autor.<br>
+		<br> 
+		<b>Wir erhalten beispithis.classLielsweise folgendes für eine Datei: </b><br>
+			<img src="Bilder_Sonja/Shell-Bild4_Datei-Userrechte.png"  height="20" alt="Sorry, das Bild fehlt leider"><br>
+				Der Eintrag ist analog aufgebaut, nur dass am Anfang <b> kein  d </b> steht, daher wissen wir, dass es sich um eine Datei handelt.<br>
+		<br>
+		<b>Auch ausführbare Programme sehen aus wie Dateien: </b><br>
+			<img src="Bilder_Sonja/Shell-Bild5_Programm-Userrechte.png"  height="20" alt="Sorry, das Bild fehlt leider"><br><br>
+		<b>Sollte ein <b> l </b> am Anfang stehen, so bedeutet dies, dass es ein Link ist:</b> <br>
+			<img src="Bilder_Sonja/Shell-Bild6_Link-Userrechte.png"  height="20" alt="Sorry, das Bild fehlt leider"><br><br>
+		<b>Aber was bedeutet denn das Rudel aus r,w,x, - </b>? Erwischt, ja nun wird es doch etwas komplizierter. Mit diesen Buchstaben werden Nutzerrechte (= Userrechte) angegeben.
+			Auch wenn man es nicht sieht, handelt es sich eigentlich um  3 Blöcke. Der erste nennt die Owner-/Userrechter (u), der zweite Gruppenrechte (g) und der Dritte die Rechte aller anderen
+			Nutzer (o). <br>
+		<br>Diese Blöcke bestehen aus Leserecht (<b>r</b>ead), Schreibrecht (<b>w</b>rite) und Ausführungsrecht (e<b>x</b>ecute). Steht statt eines der Zeichen dort ein "-", so ist dieses Recht nicht erteilt. 
+		<br>Manchmal versteckt sich hier drin auch ein s. Das ist das Superuserbit.So können Sie herausfinden, wo ein Superuserbit (=Stickybit) gesetzt  ist: <br><b>find -perm /ug=s -ls </b><br>
+		<b>-perm </b> ist ein Parameter bei <b>find</b>, der „permission“ (Rechte) anzeigt; er braucht als Ergänzung den Mode. Hier ist dieser <b>/m</b>. <br>
+		<b> / </b> wird verwendet, um Rechte zu suchen<br>
+		<b>ug </b> =t <b>s </b> für das Superuserbit (stickybit) in User- und in Grupperechten suchen, <b>-ls </b> ist hier der Parameter zum suchen <br>
+		<br> => Es werden alle Dateien angezeigt, bei denen ein Stickybit gesetzt ist. <br>
+		<br>Ein User, der das <b>s </b> in den Rechten hat, kann mit effektiver statt realer UID (User Id) oder GID (Gruppen Id) das Programmausführen. Das bedeutet, dass er, obwohl er kein Superuser ist, von diesem Programm so behandelt als sei er Superuser. <br>
+		<br>
+		<br>
+		<b>Wie ändern wir nun die Userrechte einer Datei oder eines Verzeichnisses?</b>b> <br>
+			Neben dem Dezimalsystem, das wir alle aus der Schule kennen, gibt es weitere Zahlensysteme, die in der Informatik gebräuchlich sind. Ein Umrechner aus dem Internet habe ich in den Quellen angegeben. 
+		<br>
+		<br>
+		<b>Zugriffsrechte werden auch mittels dreistelliger Oktalzahl angegeben: </b><br>
+			0 = Nichts <br>
+			1 = Ausführen <br>
+			2 = Schreiben <br>
+			3 = Schreiben und Ausführen <br>
+			4 = Lesen <br>
+			5 = Lesen und Ausführen <br>
+			6 = Lesen und Schreiben <br>
+			7 = Alles <br>
+		<br>Wenn alle Rechte gesetzt sind, also 111 (binär) ist es 7 (oktal). Wenn alle gesetzt sind, also 777,
+			wenn alle 3 Blöcke alle Rechte enthalten.<br>
+			Beispielsweise werden mit dem Befehl <b> sudo chmod 664 Dateiname </b> Lese- und Schreibrecht für den Besitzer der Datei und seine Gruppe agesetzt; alle anderen können nur lesen. <br>
+		<br>
+		<b>sudo chmod +x Dateiname </b> bzw. Verzeichnisname setzt für Alle das Ausführungsrecht<br>
+		<b>+ </b> = Rechte hinzufügen <br>
+		<b>- </b> = Rechte entfernen <br>
+		<br>Man kann die Rechte auch als 3stellige Zahl ausrücken. Im Binärsystem entscheidet die Position der 1 (1= Recht gesetzt):<br>
+			r = 100 <br>
+			w = 010 <br>
+			x = 001 <br>
+		<br>
+
+ <table class="tab1"> 
+    <tr>
+        <th class="tab1-bd1">r</th>
+        <th class="tab1-bd1">w</th>
+        <th class="tab1-bd1">x</th>
+        <th class="tab1-bd1">Oktal</th>
+        <th class="tab1-bd1">In Worten</th>
+    </tr>
+    <tr>
+        <td class="tab1-innen">0</td>
+        <td class="tab1-innen">0</td>
+        <td class="tab1-innen">0</td>
+        <td class="tab1-innen">0</td>
+        <td class="tab1-innen">kein Recht</td>
+    </tr>
+    <tr>
+        <td class="tab1-innen">0</td>
+        <td class="tab1-innen">0</td>
+        <td class="tab1-innen">1</td>
+        <td class="tab1-innen">1</td>
+        <td class="tab1-innenthis.classLi">Ausführen</td>
+    </tr>
+    <tr>
+        <td class="tab1-innen">0</td>
+        <td class="tab1-innen">1</td>
+        <td class="tab1-innen">0</td>
+        <td class="tab1-innen">2</td>
+        <td class="tab1-innen">Schreiben</td>
+    </tr>
+    <tr>
+        <td class="tab1-innen">0</td>
+        <td class="tab1-innen">1</td>
+        <td class="tab1-innen">1</td>
+        <td class="tab1-innen">3</td>
+        <td class="tab1-innen">Schreiben und Ausführen</td>
+    </tr>
+    <tr>
+        <td class="tab1-innen">1</td>
+        <td class="tab1-innen">0</td>
+        <td class="tab1-innen">0</td>
+        <td class="tab1-innen">4</td>
+        <td class="tab1-innen">Lesen</td>
+    </tr>
+    <tr>
+        <td class="tab1-innen">1</td>
+        <td class="tab1-innen">0</td>
+        <td class="tab1-innen">1</td>
+        <td class="tab1-innen">5</td>
+        <td class="tab1-innen">Lesen und Ausführen</td>
+    </tr>
+    <tr>
+        <td class="tab1-a14">1 </td>
+        <td class="tab1-innen">1</td>
+        <td class="tab1-innen">0</td>
+        <td class="tab1-innen">6</td>
+        <td class="tab1-innen">Lesen und Schreiben</td>
+    </tr>
+    <tr>
+        <td class="tab1-a14">1 </td>
+        <td class="tab1-innen">1</td>
+        <td class="tab1-innen">1</td>
+        <td class="tab1-innen">7</td>
+        <td class="tab1-innen">Alle Rechte</td>
+    </tr>
+</table>
+
+
+<br>Wären alle Rechte gesetzt, ergäbe sich 111, wären nur das Lese- und das Schreibrecht gesetzt, ergäbe sich 110. <br>
+Haben wir beispielsweise: <b>rwxrw-r-- </b>, so bedeutet es, dass derjenige mit Owner-Recht (u) alles darf (rwx =111). Wer nur Gruppenrechte hat, darf Lesen und schreiben (rw- =110) und  alle anderen
+Nutzer dürfen nur lesen (r- - =100). In Binäre ist das dann 111110100. 
+
+<br><br>
+<table border=1>
+<tr><td>Owner (Eigentümer)</td><td>Group (Gruppe)</td><td>Sonstige</td></tr>
+<tr><td>111</td><td>110</td><td>100</td></tr>
+</table>
+<br>
+<br>
+
+ </div>   
+
+ 
+   
+<button class="accordion" type="button" onclick="myFunction()"> Systeminformationen abfragen</button>
+   <div class="panel">
+      
+<br>Was macht mein Rechner eigentlich grade so? Der Befehl <b> ps </b> zeigt alle laufenden Prozesse in Langform (-l) an und <b> pstree </b> zeigt diese in Baumstruktur an. <br>
+<br><b>Einige Parameter zur Prozessanzeige: </b><br>
+<b>pstree -c </b> zeigt Prozesse als Baumstruktur in Kompaktansicht (-c) an <br>
+<b>pstree -h </b>hebt man aktuellen Prozess hervor <br>
+<b>pstree -s </b>zeigt Elternprozesse an. <br>
+<b>ps -l </b> gibt momentan laufende Prozesse in Langform ("-l") aus <br>
+<b>ps aux </b> listet Prozesse mit ihrem Status auf <br>
+<b>top </b> gibt Prozesstabelle aus, in der laufende Prozesse angezeigt werden. Das kann man mit <b>:q </b> beenden <br>
+<b>pidof Prozessname</b> zeigt die Prozessid an<br>
+<br>
+<b>Prozesse können verschiedene Zustände haben:</b> <br>
+<b>runnig </b> = Der Prozess läuft gerade. <br>
+<b>sleep </b> = Prozess wartet auf I/O. <br>
+<b>uninterruptible sleep </b> = Wie sleep, aber man kann diesen nur mit Reboot beenden oder indem man wartet bis Prozess passiert, worauf der wartet und er weiter läuft. <br>
+<b>wait </b> = Er wartet grade <br>
+<b>trace </b> = Prozess verfolgen <br>
+<b>ready </b> = Er ist nun bereit, um ausgeführt zu werden. <br>
+<b>zombie </b> = Der Prozess ist beendet, aber der Elternprozess hat es noch nicht registriert, daher ist der Prozees noch da, tut aber nichts mehr. <br>
+<b>dead </b> = Er ist fertig und wurde beendet. <br>
+<br>
+<b>uptime </b> zeigt an, wie spät es gerade ist und welche User wie lange da sind.<br>
+<b>w </b> zeigt an wlecher user gerade was von wo aus tut <br>
+Manchmal muss man vor den Befehl <b> sudo </b> schreiben, da man in einigen Verzeichnissen Superuserrechte benötigt.
+<b>sudo du -sh / </b> (disk usage) zeigt den belegten Speicherplatz auf der Festplatte für das gesamte System an.
+<b>sudo du -sh ./ </b> gibt von dem Verzeichnis aus, in dem man ist, die Festplattenbelegung als Zusammenfassung <b>-s </b> aus und <b>-h </b> verwandelt die Ausgabe in Einheiten, z.B. 5,6GB <br>
+<b>df -h </b> liefert eine Dateisystemfestplattenanzeige (Gesamtgröße, Einheiten und in % genutzt, externe Pfade) <br>
+<b>df -hl </b> zeigt nur für das lokale Dateisystem den freien Speicherplatz an <br>
+<b>sudo mount -t </b> liefert eine Liste der aktivierten Dateisysteme (z.B. Partitionen, weitere Festplatten oder USBSticks) mit Typangabe (-t). <br> 
+<br> Mit entspechenden Parametern kann man auch Dateisysteme umhängen. Man sollte aber wissen was man tut. <br>
+Mittels <b> sudo mount -o remount,rw / </b> => Root-Verzeichnis im Read/Write Modus (rw) neu einzuhängen. Das braucht man, wenn Linux im Recovery Mode gebootet wurde, damit dann auch "write" geht. So kann man dann Fehler beheben. <br>
+<b>vmstat </b> zeigt virtuelle Speicherstatistiken an. <br>
+<b>iostat </b> zeigt CPU - Statistik, sowie Statistik für Devices und Partitionen an.
+</div>    
+            
+ <button class="accordion">Installieren</button>
+   <div class="panel">
+      <p>Es ist auch möglich mittels Shell Software (Programme) zu installieren. <br>
+ <br> Normalerweise wird dies jedoch über die Paketverwaltung gemacht, da dies einfacher ist. Kleinere Programme installieren wir im Abschnitt Fun direkt mittels Shell.
+Der Befehl wird folgendermaßen aufgebaut (z.B. Debian, Ubuntu und deren Derivate): <br>
+<b>sudo apt install Programmname </b><br>
+<p>Für einige Befehle müssen wir Superuser sein oder den Befehlen ein <b> sudo </b> voranstellen. <br>
+<b>sudo</b> (Superuser do) bedeutet, dass man etwas als Superuser (auch root genannt) tut. Hierbei handelt es sich um Eingriffe, die normalerweise nicht jeder Nutzer ausführen können soll. Es wird daher in der Regel ein Passwort verlangt. 
+<br><b>Bitte tun Sie als Sudo nur Dinge, die Sie verstehen, Sie können in dieser Rolle Ihr System schädigen.</b>
+<br>Der Befehl <b>apt </b> ermöglicht die Installation und Deinstallation von Paketen und Anzeige von Informationen zu diesen.<br>
+<b>install </b> installiert Software <br>
+<b>deinstall </b> deinstalliert (entfernt) Software <br>
+      </p>
+   </div>          
+ <br>
+ <br>      
+
+<button class="accordion" type="button" onclick="myFunction()"> Spielkram</button>
+   <div class="panel">
+      <p>Da es viele sehr unterschiedliche Linuxdistributionen gibt, kann es sein, dass folgendes bei Ihnen nicht funktioniert. Sollte dies der Fall sein, prüfen Sie auf Eingabefehler, um diese auszuschließen.<br>
+<br>
+<b>Was Lustiges zum Üben:</b><br>
+Den Parameter <b>-v </b>(= verbose) haben wir schon kennen gelernt. Grob übersetzt, bedeutet dies „erzähl mir mehr“. Bei einigen Befehlen kann man auch mehrere v hintereinander verwenden.<br>
+
+Zuerst müssen wir aptitude installieren: <b>sudo apt install aptitude </b> <br>
+
+Wenn Sie <b>aptitude moo </b> eingeben, bekommen Sie die Antwort „In diesem Programm gibt es keine Easter Eggs“. Easter Eggs sind meist lustige Dinge, die Programmierer irgendwo im Programm verstecken. <br>
+Versuchen Sie nacheinander folgende Befehle. Wenn Sie sich Tipparbeit ersparen wollen, verwenden Sie die <b>Cursortaste nach oben </b>, um zu soeben eingegeben Befehl zurück zu kehren und ergänzen jeweils ein v.
+<br>
+<b>aptitude -vv moo </b><br>
+<b>aptitude -vvv moo </b><br>
+<b>aptitude -vvvv moo </b><br>
+<b>aptitude -vvvvv moo </b><br>
+<b>aptitude -vvvvvv moo </b><br>
+
+<br>
+<b>Für Freunde des Films Matrix:</b><br>
+<img src="Bilder_Sonja/Shell-Bild7_Matrix.png"  height="350" alt="Sorry, das Bild fehlt leider">
+<br>
+1) Installieren (Das muss man nur einmal machen) : <b>sudo apt-get install cmatrix</b> <br>
+2) Ausführen (jedes Mal, wenn man möchte): <b>cmatrix </b><br>
+3) Beenden mit <b>Strg-Taste</b> und <b>c </b>
+<br>
+<br>
+<b>Für Feuerteufel:</b>
+<br>
+ <img src="Bilder_Sonja/Shell-Bild8_Feuer.png"  height="350" alt="Sorry, das Bild fehlt leider">
+<br>
+1) Installieren: <b>apt-get install libaa-bin </b><br>
+2) Ausführen: <b>aafire </b><br>
+3) Beenden mit <b>Strg-Taste</b> und <b>c
+ </b>
+<br>
+      
+ </p>
+</div>   
+ 
+    
+    <br>  
+    <br>
+ <div class="ueberschrift"> Quellen und weiterführende Links: </div>
+			
+	<ol class = "liste">
+              
+        <li><a href="https://wiki.ubuntuusers.de/Shell/"> wiki.ubuntuusers.de: Infos zur Shell</a> </li>
+        <li><a href="https://www.heise.de/tipps-tricks/Linux-Datei-suchen-so-geht-s-4060321.html" > heise.de: Shell Tips </a></li>
+        <li><a href="https://www.shellbefehle.de/befehle/"> Shellbefehle </a> </li>
+        <li><a href="https://de.wikibooks.org/wiki/Linux-Praxisbuch:_Shellprogrammierung" > wikbook.org: Linux Praxisbuch zur Shellprogrammierung </a></li>
+        <li><a href="http://openbook.rheinwerk-verlag.de/shell_programmierung/index.htm"> openbook.rheinwerk-verlag.de: Shellprogrammierung </a> </li>
+        <li><a href="https://www.tecmint.com/20-funny-commands-of-linux-or-linux-is-fun-in-terminal/" > www.tecmint.com: Spaßige Shellbefehle </a></li>
+        <li><a href="https://www.matheretter.de/rechner/zahlenkonverter"> www.matheretter.de: Umrechnung Zahlensysteme </a> </li>
+    </ol>	
+
+</article>
+
+
+  
+
+
+   <script>
+
+   var acc = document.getElementsByClassName("accordion");
+   var i;
+
+   for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+         if (panel.style.display === "block") {
+            panel.style.display = "none";
+         } else {
+            panel.style.display = "block";
+         }
+      });
+   }
+
+   var acc = document.getElementsByClassName("accordion2");
+   var i;
+
+   for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+      this.classList.toggle("active2");
+      var panel = this.nextElementSibling;
+         if (panel.style.display === "block") {
+            panel.style.display = "none";
+         } else {
+            panel.style.display = "block";
+         }
+      });
+   }
+
+   </script>
+   <noscript><h1 class="warnung">Achtung: Um alles betrachten zu k&ouml;nnen, muss JavaScript aktiviert sein.</h1></noscript>
+
+
+   <div>
+       <p><br></p>
+   </div>
+   <hr>
+
+   <div class="abspan">
+       <p>Wir hoffen, dass diese Seite gefallen hat und hilfreich war. 
+       </p>
+   </div>
+
+   <div class="anleihe" >
+       
+       <p>Bei der Erstellung des Grundger&uuml;stes dieser Internetseite wurde auf W3Schools.com zugegriffen 
+          <a href="https://www.w3schools.com/">W3Schools.com</a>. Zudem waren viele Quellen im Internet 
+          bei Details hilfreich.
+       </p>
+       <p>F&uuml;r die Vorbereitung des LPD habe ich wieder 
+          verst&auml;rkt die Artikel in der Zeitschrift <a href="http://www.linuxuser.de" target="_blank">linuxuser</a> 
+          gelesen. Denn Themen wie Distributionen f&uuml;r alte Rechner, Hinweise auf besonders 
+          schlanke Programme, was gerade besonders beliebt ist oder besondere Themen wie Videoschnitt 
+          werden dort gut behandelt.
+       </p>
+       <p>Grafiken</p>
+       <ul>
+          <li><a href="https://l-p-d.org/de/start" target="_blank">https://l-p-d.org/de/start</a></li>
+       </ul>
+      
+       <p>Details</p>
+       <ul>
+          <li><a href="https://de.wikipedia.org" target="_blank">https://de.wikipedia.org</a></li>
+       </ul>
+       
+   </div>
+   <p class="rechtliches">Diese Seite ist nicht kommerziell.<br><br>
+   Trotz gro&szlig;er Sorgfallt k&ouml;nnen sich Fehler eingeschlichen haben. 
+   Wir bitten dann um Nachsicht und freuen uns auf einen entsprechenden Hinweis. 
+   Es wird keine Gew&auml;hr für die Vollst&auml;ndigkeit &uuml;bernommen. 
+   Für Sch&auml;den, die durch die Anwendung z.B. einer Installationsanleitung entstehen, 
+   &uuml;bernehmen wir keinerlei Haftung.<br>
+   Die verwendeten externen Links auf dieser 
+   Seite werden immer wieder gepr&uuml;ft. Wir &uuml;bernehmen jedoch keinerlei 
+   Haftung f&uuml;r die Verwendung der Links. F&uuml;r den Inhalt der verlinkten Seiten sind die 
+   Betreiber dieser Seiten verantwortlich. Rechtsverst&ouml;ße auf den verlinkten Seiten waren 
+   bei der aktuellen &Uuml;berp&uuml;fung nicht erkennbar.<br>
+   Bevor Sie der Speicherung von Cookies zustimmen, empfehlen wir generell zuvor die Einstellungen 
+   so weit wir m&ouml;glich zu beschr&auml;nken und dann diese individuellen Einstellungen 
+   zu speichern. Leider werden diese Einstellungen meist versteckt und auch der richtige Button 
+   zum Best&auml;tigen ist meist kleiner und versteckt.
+   </p>
+
+<BR>
+<BR>
+<p><i>Letzte &Uuml;berarbeitung f&uuml;r den RC3 im Dezember 2021.</i></p>
+</TD></TR></TBODY>
+</TABLE>
+<!-- Textfeld Ende -->
+</BODY>
+</HTML>
