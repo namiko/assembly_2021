@@ -236,6 +236,12 @@
                  "y":12
                 }],
          "opacity":1,
+         "properties":[
+                {
+                 "name":"url",
+                 "type":"string",
+                 "value":"Desiderat\/Video-Installation-Seite.html"
+                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
