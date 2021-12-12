@@ -2,10 +2,13 @@ import {Sound} from "@workadventure/iframe-api-typings/Api/iframe/Sound/Sound";
 
 let latestSteps = new Array();
 let isOnSnow = false;
+let isOnWater = false;
 let snowsound: Sound;
+let watersound: Sound;
 
 export const initInteractions = () => {
     snowsound = WA.sound.loadSound("assets/mp3/67243__robban87__snowstep_shortened.mp3");
+	watersound = WA.sound.loadSound("assets/mp3/204035__duckduckpony__footsteps-water-light-008_shortened.mp3");
     doSound();
 }
 
@@ -67,7 +70,7 @@ let drawSteps = function (event:any){
 
 let doSound = function (){
     let config = {
-        volume : 0.5,
+        volume : 0.2,
         loop : false,
         rate : 1,
         detune : 1,
@@ -76,9 +79,10 @@ let doSound = function (){
         mute : false
     }
 
-    WA.room.onEnterZone('SnowSteps', () =>{
+    WA.room.onEnterZone('SnowSteps', () => {
         isOnSnow = true;
     })
+
 
     WA.room.onLeaveZone('SnowSteps', () =>{
         isOnSnow = false;
@@ -86,6 +90,14 @@ let doSound = function (){
         latestSteps.forEach(function (removable){
             WA.room.setTiles([{x: removable.x, y: removable.y, tile: null, layer: 'footsteps'}])
         })
+    })
+	
+	WA.room.onEnterZone('WaterSteps', () =>{
+        isOnWater = true;
+    })
+
+    WA.room.onLeaveZone('WaterSteps', () =>{
+        isOnWater = false;
     })
 
 
@@ -98,7 +110,14 @@ let doSound = function (){
             else{
                 snowsound.stop();
             }
-        }
+        }else if(isOnWater){
+			if(event.moving){
+                watersound.play(config);
+            }
+            else{
+                watersound.stop();
+            }
+		}
 
     })
 }
