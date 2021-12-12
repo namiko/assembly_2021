@@ -70,7 +70,7 @@ let drawSteps = function (event:any){
 
 let doSound = function (){
     let config = {
-        volume : 0.5,
+        volume : 0.2,
         loop : false,
         rate : 1,
         detune : 1,

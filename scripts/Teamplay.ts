@@ -1,5 +1,4 @@
 import {getRandomField} from "./Utilities";
-import {getLayersMap} from "@workadventure/scripting-api-extra/dist";
 
 let limit = 2;
 let isFiring:boolean;
