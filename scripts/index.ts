@@ -3,7 +3,6 @@
 import {bootstrapExtra} from "@workadventure/scripting-api-extra";
 import {initTeamPlay} from "./Teamplay";
 import {initInteractions} from "./Interaction";
-import {getLayersMap} from '@workadventure/scripting-api-extra';
 import {initDaytimes} from "./Daytimes";
 
 // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure.
