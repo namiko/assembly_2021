@@ -96,7 +96,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"museumschallenge.hmtl"
+                 "value":"museumschallenge.html"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -112,7 +112,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"playAudio",
+                 "name":"playAudioLoop",
                  "type":"string",
                  "value":"realitaetswechsel.mp3"
                 }],
