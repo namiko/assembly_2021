@@ -44,7 +44,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"main.json#from_linuxSonja"
+                 "value":"main.json#entries\/from_linuxSonja"
                 }],
          "type":"tilelayer",
          "visible":true,
