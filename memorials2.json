@@ -622,6 +622,12 @@
          "imagewidth":200,
          "margin":0,
          "name":"grace-hopper",
+         "properties":[
+                {
+                 "name":"collides",
+                 "type":"bool",
+                 "value":true
+                }],
          "spacing":0,
          "tilecount":30,
          "tileheight":32,
@@ -650,6 +656,12 @@
          "imagewidth":200,
          "margin":0,
          "name":"kernspaltung",
+         "properties":[
+                {
+                 "name":"collides",
+                 "type":"bool",
+                 "value":true
+                }],
          "spacing":0,
          "tilecount":18,
          "tileheight":32,
@@ -678,6 +690,12 @@
          "imagewidth":160,
          "margin":0,
          "name":"kate-darling",
+         "properties":[
+                {
+                 "name":"collides",
+                 "type":"bool",
+                 "value":true
+                }],
          "spacing":0,
          "tilecount":40,
          "tileheight":32,
@@ -704,6 +722,12 @@
          "imagewidth":238,
          "margin":0,
          "name":"hilda",
+         "properties":[
+                {
+                 "name":"collides",
+                 "type":"bool",
+                 "value":true
+                }],
          "spacing":0,
          "tilecount":108,
          "tileheight":32,
@@ -730,6 +754,12 @@
          "imagewidth":256,
          "margin":0,
          "name":"stjude",
+         "properties":[
+                {
+                 "name":"collides",
+                 "type":"bool",
+                 "value":true
+                }],
          "spacing":0,
          "tilecount":16,
          "tileheight":32,
