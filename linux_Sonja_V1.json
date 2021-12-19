@@ -44,7 +44,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"main.json#from_linux_Sonja_V1.json"
+                 "value":"main.json#from_linux_Sonja_V1"
                 }],
          "type":"tilelayer",
          "visible":true,
