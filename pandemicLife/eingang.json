@@ -114,7 +114,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":""
+                 "value":"Anfangstext.html"
                 }],
          "type":"tilelayer",
          "visible":true,

@@ -96,7 +96,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"museumschallenge.html"
+                 "value":"Gemaeldeseite.html"
                 }],
          "type":"tilelayer",
          "visible":false,
