@@ -44,7 +44,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"main.json#from_linux"
+                 "value":"..\/main.json#from_linux"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -98,7 +98,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"Desiderat\/LPDundShell_RC3.html"
+                 "value":"..\/Desiderat\/LPDundShell_RC3.html"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -116,7 +116,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"Desiderat\/Linux-Quiz_Sprachwahl.html"
+                 "value":"..\/Desiderat\/Linux-Quiz_Sprachwahl.html"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -134,7 +134,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"Desiderat\/Video-Installation-Seite.html"
+                 "value":"..\/Desiderat\/Video-Installation-Seite.html"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -152,22 +152,10 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"Desiderat\/Error404Seite_Fun.html"
+                 "value":"..\/Desiderat\/Error404Seite_Fun.html"
                 }],
          "type":"tilelayer",
          "visible":true,
-         "width":24,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-         "height":28,
-         "id":2,
-         "name":"floorLayer",
-         "opacity":1,
-         "type":"tilelayer",
-         "visible":false,
          "width":24,
          "x":0,
          "y":0
@@ -276,27 +264,16 @@
          "width":24,
          "x":0,
          "y":0
-        }, 
-        {
-         "id":34,
-         "layers":[],
-         "name":"getbadge",
-         "opacity":1,
-         "properties":[
-                {
-                 "name":"getBadge",
-                 "type":"string",
-                 "value":"https:\/\/maschinenraum.rc3.world\/backoffice\/assembly\/0b97048b-ad18-4752-a030-9f8d7465e8a5\/badge\/59"
-                }],
-         "type":"group",
-         "visible":true,
-         "x":0,
-         "y":0
         }],
  "nextlayerid":36,
  "nextobjectid":15,
  "orientation":"orthogonal",
  "properties":[
+        {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"https:\/\/www.haecksen.org\/"
+        }, 
         {
          "name":"url",
          "type":"string",
@@ -309,11 +286,17 @@
         {
          "columns":16,
          "firstgid":1,
-         "image":"assets\/rc3_tiles\/deco\/rc3-mullana-neon-signs.png",
+         "image":"..\/assets\/rc3_tiles\/deco\/rc3-mullana-neon-signs.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-neon-signs",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":256,
          "tileheight":32,
@@ -431,11 +414,17 @@
         {
          "columns":16,
          "firstgid":257,
-         "image":"assets\/rc3_tiles\/structures\/rc3-mullana-overlay.png",
+         "image":"..\/assets\/rc3_tiles\/structures\/rc3-mullana-overlay.png",
          "imageheight":1024,
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-overlay",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":512,
          "tileheight":32,
@@ -444,11 +433,17 @@
         {
          "columns":16,
          "firstgid":769,
-         "image":"assets\/rc3_tiles\/structures\/rc3-mullana-functionary.png",
+         "image":"..\/assets\/rc3_tiles\/structures\/rc3-mullana-functionary.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-functionary",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":256,
          "tileheight":32,
@@ -457,11 +452,17 @@
         {
          "columns":16,
          "firstgid":1025,
-         "image":"assets\/rc3_tiles\/deco\/rc3-mullana-objects.png",
+         "image":"..\/assets\/rc3_tiles\/deco\/rc3-mullana-objects.png",
          "imageheight":256,
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-objects",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":128,
          "tileheight":32,
@@ -470,11 +471,17 @@
         {
          "columns":3,
          "firstgid":1153,
-         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/furniture\/23_tisch_weiss_1.png",
+         "image":"..\/assets\/rc3_tiles\/community\/cert\/imgs\/furniture\/23_tisch_weiss_1.png",
          "imageheight":64,
          "imagewidth":96,
          "margin":0,
          "name":"23_tisch_weiss_1",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":6,
          "tileheight":32,
@@ -483,11 +490,17 @@
         {
          "columns":4,
          "firstgid":1159,
-         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/misc\/57_zettelfoo.png",
+         "image":"..\/assets\/rc3_tiles\/community\/cert\/imgs\/misc\/57_zettelfoo.png",
          "imageheight":96,
          "imagewidth":128,
          "margin":0,
          "name":"57_zettelfoo",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":12,
          "tileheight":32,
@@ -496,11 +509,17 @@
         {
          "columns":1,
          "firstgid":1171,
-         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/misc\/65_tischdokumente_2.png",
+         "image":"..\/assets\/rc3_tiles\/community\/cert\/imgs\/misc\/65_tischdokumente_2.png",
          "imageheight":64,
          "imagewidth":32,
          "margin":0,
          "name":"65_tischdokumente_2",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":2,
          "tileheight":32,
@@ -509,11 +528,17 @@
         {
          "columns":2,
          "firstgid":1173,
-         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/tilesheets\/misc_set.png",
+         "image":"..\/assets\/rc3_tiles\/community\/cert\/imgs\/tilesheets\/misc_set.png",
          "imageheight":832,
          "imagewidth":64,
          "margin":0,
          "name":"misc_set",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":52,
          "tileheight":32,
@@ -522,11 +547,17 @@
         {
          "columns":16,
          "firstgid":1225,
-         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/tilesheets\/misc.png",
+         "image":"..\/assets\/rc3_tiles\/community\/cert\/imgs\/tilesheets\/misc.png",
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
          "name":"misc",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -628,11 +659,17 @@
         {
          "columns":1,
          "firstgid":2249,
-         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/food_and_drinks\/10_coffee.png",
+         "image":"..\/assets\/rc3_tiles\/community\/cert\/imgs\/food_and_drinks\/10_coffee.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
          "name":"10_coffee",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":1,
          "tileheight":32,
@@ -641,11 +678,17 @@
         {
          "columns":9,
          "firstgid":2250,
-         "image":"assets\/rc3_tiles\/community\/cert\/imgs\/tilesheets\/mapUtilities.png",
+         "image":"..\/assets\/rc3_tiles\/community\/cert\/imgs\/tilesheets\/mapUtilities.png",
          "imageheight":32,
          "imagewidth":288,
          "margin":0,
          "name":"mapUtilities",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":9,
          "tileheight":32,
@@ -715,11 +758,17 @@
         {
          "columns":19,
          "firstgid":2259,
-         "image":"assets\/Iglu\/IgluEisTux.png",
+         "image":"..\/assets\/Iglu\/IgluEisTux.png",
          "imageheight":376,
          "imagewidth":611,
          "margin":0,
          "name":"IgluEisTux",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/www.haecksen.org\/"
+                }],
          "spacing":0,
          "tilecount":209,
          "tileheight":32,
@@ -728,11 +777,17 @@
         {
          "columns":16,
          "firstgid":2468,
-         "image":"assets\/rc3_tiles\/deco\/dk_lines.png",
+         "image":"..\/assets\/rc3_tiles\/deco\/dk_lines.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
          "name":"dk_lines",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":256,
          "tileheight":32,
@@ -741,11 +796,17 @@
         {
          "columns":7,
          "firstgid":2724,
-         "image":"assets\/rc3_tiles\/deco\/minideko.png",
+         "image":"..\/assets\/rc3_tiles\/deco\/minideko.png",
          "imageheight":416,
          "imagewidth":224,
          "margin":0,
          "name":"minideko",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":91,
          "tileheight":32,
@@ -754,11 +815,17 @@
         {
          "columns":19,
          "firstgid":2815,
-         "image":"assets\/Iglu\/IgluEisTux_transparent.png",
+         "image":"..\/assets\/Iglu\/IgluEisTux_transparent.png",
          "imageheight":376,
          "imagewidth":611,
          "margin":0,
          "name":"IgluEisTux_transparent",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/www.haecksen.org\/"
+                }],
          "spacing":0,
          "tilecount":209,
          "tileheight":32,
@@ -768,11 +835,17 @@
         {
          "columns":31,
          "firstgid":3024,
-         "image":"assets\/Meer\/Meer_klein_desiderat_transparent.png",
+         "image":"..\/assets\/Meer\/Meer_klein_desiderat_transparent.png",
          "imageheight":584,
          "imagewidth":1000,
          "margin":0,
          "name":"Meer_klein_desiderat_transparent",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/www.haecksen.org\/"
+                }],
          "spacing":0,
          "tilecount":558,
          "tileheight":32,
