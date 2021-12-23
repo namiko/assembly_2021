@@ -80,7 +80,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"..\/Desiderat\/LPDundShell_RC3.html"
+                 "value":"https:\/\/namiko.github.io\/assembly_2021\/Desiderat\/LPDundShell_RC3.html"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -98,7 +98,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"..\/Desiderat\/Linux-Quiz_Sprachwahl.html"
+                 "value":"https:\/\/namiko.github.io\/assembly_2021\/Desiderat\/Linux-Quiz_Sprachwahl.html"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -116,7 +116,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"..\/Desiderat\/Video-Installation-Seite.html"
+                 "value":"https:\/\/namiko.github.io\/assembly_2021\/Desiderat\/Video-Installation-Seite.html"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -134,7 +134,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"..\/Desiderat\/Error404Seite_Fun.html"
+                 "value":"https:\/\/namiko.github.io\/assembly_2021\/Desiderat\/Error404Seite_Fun.html"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -210,7 +210,18 @@
          "draworder":"topdown",
          "id":36,
          "name":"Badge",
-         "objects":[],
+         "objects":[
+                {
+                 "height":52,
+                 "id":15,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":119,
+                 "x":298,
+                 "y":263
+                }],
          "opacity":1,
          "properties":[
                 {
@@ -265,7 +276,7 @@
          "y":0
         }],
  "nextlayerid":37,
- "nextobjectid":15,
+ "nextobjectid":16,
  "orientation":"orthogonal",
  "properties":[
         {
