@@ -215,6 +215,12 @@
                  "height":52,
                  "id":15,
                  "name":"",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"Z1rGSgRaT7HmxL7sJ9HZ5QIEx4q01XvJZqIAleRQJb6ctWcStb"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -223,12 +229,6 @@
                  "y":263
                 }],
          "opacity":1,
-         "properties":[
-                {
-                 "name":"getBadge",
-                 "type":"string",
-                 "value":"Z1rGSgRaT7HmxL7sJ9HZ5QIEx4q01XvJZqIAleRQJb6ctWcStb"
-                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
