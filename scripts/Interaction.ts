@@ -5,18 +5,11 @@ let isOnSnow = false;
 let isOnWater = false;
 let snowsound: Sound;
 let watersound: Sound;
-let isOnPCB = false;
-let isOnShock = false;
-let showPCB = false;
-let showPCBLED = false;
 
 export const initInteractions = () => {
     snowsound = WA.sound.loadSound("assets/mp3/67243__robban87__snowstep_shortened.mp3");
 	watersound = WA.sound.loadSound("assets/mp3/204035__duckduckpony__footsteps-water-light-008_shortened.mp3");
     doSound();
-    WA.room.hideLayer('hat');
-    WA.room.hideLayer('hat_glow');
-    WA.room.hideLayer('shock');
 }
 
 
@@ -140,43 +133,5 @@ let doSound = function (){
             }
 		}
 
-    })
-}
-
-/**
- * mini-quest PCB solder station:
- * step 1: walk to solder-station to show blank PCB
- * step 2: walk over cable in water to get shocked and show PCB with glowing LEDs
- * step 3: walk back to solder-station to receive badge
- * let isOnPCB = false;
- * let isOnShock = false;
- * let showPCB = false;
- * let showPCBLED = false;
- */
-let miniQuest = function (event:any){
-    if(!showPCBLED){
-	WA.room.hideLayer('hat_glow');
-	WA.room.onEnterLayer('solderStation').subscribe(() =>{
-	    showPCB = true;
-	    showPCBLED = false;
-	    WA.room.showLayer('hat');
-	    WA.room.hideLayer('hat_glow');
-    	})
-    }
-
-    WA.room.onEnterLayer('shockArea').subscribe(() =>{
-        isOnShock = true;
-	WA.room.showLayer('shock');
-	if(showPCB || showPCBLED){
-	    showPCB = false;
-	    showPCBLED = true;
-	    WA.room.hideLayer('hat');
-	    WA.room.showLayer('hat_glow');
-	}
-    })
-
-    WA.room.onLeaveLayer('shockArea').subscribe(() =>{
-        isOnShock = false;
-	WA.room.hideLayer('shock');
     })
 }
