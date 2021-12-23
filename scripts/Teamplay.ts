@@ -183,6 +183,11 @@ let clearPlayers = function(){
     counter.count = 0;
 
     WA.state.saveVariable('teamCounter', counter);
+    WA.room.hideLayer('TeamAnimation/AniA');
+    WA.room.hideLayer('TeamAnimation/AniB');
+    WA.room.hideLayer('TeamAnimation/AniC');
+    WA.room.hideLayer('TeamAnimation/AniD');
+    WA.room.hideLayer('TeamAnimation/AniE');
 }
 
 /**
