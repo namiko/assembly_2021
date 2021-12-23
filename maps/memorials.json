@@ -12,7 +12,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/main.json#from_memorials_1"
+                 "value":"..\/main.json#entries\/from_memorials_1"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -484,7 +484,7 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-overlay",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -503,11 +503,11 @@
          "imagewidth":480,
          "margin":0,
          "name":"cija_32x32_expansion for Pipoya_CC0",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
-                 "value":"https://gitlab.hamburg.ccc.de/ccchh/rc3-world-ccchh/-/tree/master/chaosknoten"
+                 "value":"https:\/\/gitlab.hamburg.ccc.de\/ccchh\/rc3-world-ccchh\/-\/tree\/master\/chaosknoten"
                 }],
          "spacing":0,
          "tilecount":1995,
@@ -522,7 +522,7 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-neon-signs",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -622,7 +622,7 @@
          "imagewidth":256,
          "margin":0,
          "name":"official_rockets",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -641,7 +641,7 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-functionary",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -660,7 +660,7 @@
          "imagewidth":288,
          "margin":0,
          "name":"mapUtilities",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -689,7 +689,7 @@
          "imagewidth":220,
          "margin":0,
          "name":"Babbages_Analytical_Engine",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -718,7 +718,7 @@
          "imagewidth":96,
          "margin":0,
          "name":"ada-text-2",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -737,7 +737,7 @@
          "imagewidth":160,
          "margin":0,
          "name":"margaret-text",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -756,7 +756,7 @@
          "imagewidth":96,
          "margin":0,
          "name":"marie-text",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -775,7 +775,7 @@
          "imagewidth":160,
          "margin":0,
          "name":"rosalind-text",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -794,7 +794,7 @@
          "imagewidth":96,
          "margin":0,
          "name":"heart-rainbow",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -813,7 +813,7 @@
          "imagewidth":128,
          "margin":0,
          "name":"lab_table",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -832,7 +832,7 @@
          "imagewidth":376,
          "margin":0,
          "name":"helix",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -851,7 +851,7 @@
          "imagewidth":320,
          "margin":0,
          "name":"robo_lipstick",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -870,7 +870,7 @@
          "imagewidth":128,
          "margin":0,
          "name":"simone-text",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -889,7 +889,7 @@
          "imagewidth":96,
          "margin":0,
          "name":"luise-text",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -908,7 +908,7 @@
          "imagewidth":200,
          "margin":0,
          "name":"tictactoe",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -923,16 +923,16 @@
          "columns":3,
          "firstgid":3338,
          "image":"..\/assets\/syl_tilesets\/carol-text.png",
-		 "properties":[
+         "imageheight":32,
+         "imagewidth":96,
+         "margin":0,
+         "name":"carol-text",
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
                  "value":"https:\/\/www.haecksen.org\/"
                 }],
-         "imageheight":32,
-         "imagewidth":96,
-         "margin":0,
-         "name":"carol-text",
          "spacing":0,
          "tilecount":3,
          "tileheight":32,
