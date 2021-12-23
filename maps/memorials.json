@@ -522,7 +522,7 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-neon-signs",
-		  "properties":[
+		 "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -641,7 +641,7 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-functionary",
-		  "properties":[
+		 "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
