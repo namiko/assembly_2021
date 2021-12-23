@@ -584,6 +584,11 @@
          "margin":0,
          "name":"kernspaltung",
          "properties":[
+		        {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/www.haecksen.org\/"
+                },
                 {
                  "name":"collides",
                  "type":"bool",
@@ -624,6 +629,11 @@
          "margin":0,
          "name":"kate-darling",
          "properties":[
+		        {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/www.haecksen.org\/"
+                },
                 {
                  "name":"collides",
                  "type":"bool",
@@ -705,6 +715,11 @@
          "margin":0,
          "name":"stjude",
          "properties":[
+		        {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/www.haecksen.org\/"
+                },
                 {
                  "name":"collides",
                  "type":"bool",

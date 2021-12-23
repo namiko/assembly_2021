@@ -204,6 +204,12 @@
          "id":24,
          "name":"start_treppe",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"startLayer",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":18,
@@ -380,7 +386,7 @@
          "imagewidth":288,
          "margin":0,
          "name":"mapUtilities",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -410,7 +416,7 @@
          "imagewidth":256,
          "margin":0,
          "name":"[A]Dirt1-Dirt3_pipo",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -430,7 +436,7 @@
          "imagewidth":256,
          "margin":0,
          "name":"[Base]BaseChip_pipo",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -450,7 +456,7 @@
          "imagewidth":512,
          "margin":0,
          "name":"misc",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -470,7 +476,7 @@
          "imagewidth":512,
          "margin":0,
          "name":"furniture",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -490,7 +496,7 @@
          "imagewidth":128,
          "margin":0,
          "name":"beach-wall",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -510,7 +516,7 @@
          "imagewidth":512,
          "margin":0,
          "name":"food_and_drinks",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -530,7 +536,7 @@
          "imagewidth":128,
          "margin":0,
          "name":"podcasthuette",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -550,7 +556,7 @@
          "imagewidth":160,
          "margin":0,
          "name":"beach",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -570,7 +576,7 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-neon-signs",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -590,7 +596,7 @@
          "imagewidth":1920,
          "margin":0,
          "name":"Decor_Wip",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -610,7 +616,7 @@
          "imagewidth":512,
          "margin":0,
          "name":"cert_safety",
-		 "properties":[
+         "properties":[
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
