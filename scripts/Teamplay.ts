@@ -1,6 +1,6 @@
 import {getRandomField} from "./Utilities";
 
-let limit = 2;
+let limit = 5;
 let isFiring:boolean;
 let currentWiped:any;
 
@@ -11,6 +11,13 @@ let subscriptions:any[] = [];
  * set initial Variables and layer visibilities
  */
 export const initTeamPlay = function (){
+
+    WA.room.hideLayer('TeamAnimation/AniA');
+    WA.room.hideLayer('TeamAnimation/AniB');
+    WA.room.hideLayer('TeamAnimation/AniC');
+    WA.room.hideLayer('TeamAnimation/AniD');
+    WA.room.hideLayer('TeamAnimation/AniE');
+
     let received:any = WA.state.loadVariable('isFiring');
     isFiring = JSON.parse(received);
 
@@ -40,6 +47,12 @@ export const initTeamPlay = function (){
     WA.room.setTiles([{x: wiped[3].x, y: wiped[3].y, tile: 'marker', layer: 'TeamLayer/TeamD'}]);
     WA.room.setTiles([{x: wiped[4].x, y: wiped[4].y, tile: 'marker', layer: 'TeamLayer/TeamE'}]);
 
+    WA.room.setTiles([{x: wiped[0].x, y: wiped[0].y, tile: 'found', layer: 'TeamAnimation/AniA'}]);
+    WA.room.setTiles([{x: wiped[1].x, y: wiped[1].y, tile: 'found', layer: 'TeamAnimation/AniB'}]);
+    WA.room.setTiles([{x: wiped[2].x, y: wiped[2].y, tile: 'found', layer: 'TeamAnimation/AniC'}]);
+    WA.room.setTiles([{x: wiped[3].x, y: wiped[3].y, tile: 'found', layer: 'TeamAnimation/AniD'}]);
+    WA.room.setTiles([{x: wiped[4].x, y: wiped[4].y, tile: 'found', layer: 'TeamAnimation/AniE'}]);
+
     setTriggers();
 
     WA.state.onVariableChange('teamCounter').subscribe((value: any) => {
@@ -49,12 +62,21 @@ export const initTeamPlay = function (){
         }
     });
 
+    /**
+     * Rearanging secret tiles to find
+     */
     WA.state.onVariableChange('wiped').subscribe((value: any) => {
         WA.room.setTiles([{x: currentWiped[0].x, y: currentWiped[0].y, tile: 0, layer: 'TeamLayer/TeamA'}]);
         WA.room.setTiles([{x: currentWiped[1].x, y: currentWiped[1].y, tile: 0, layer: 'TeamLayer/TeamB'}]);
         WA.room.setTiles([{x: currentWiped[2].x, y: currentWiped[2].y, tile: 0, layer: 'TeamLayer/TeamC'}]);
         WA.room.setTiles([{x: currentWiped[3].x, y: currentWiped[3].y, tile: 0, layer: 'TeamLayer/TeamD'}]);
         WA.room.setTiles([{x: currentWiped[4].x, y: currentWiped[4].y, tile: 0, layer: 'TeamLayer/TeamE'}]);
+
+        WA.room.setTiles([{x: currentWiped[0].x, y: currentWiped[0].y, tile: 0, layer: 'TeamAnimation/AniA'}]);
+        WA.room.setTiles([{x: currentWiped[1].x, y: currentWiped[1].y, tile: 0, layer: 'TeamAnimation/AniB'}]);
+        WA.room.setTiles([{x: currentWiped[2].x, y: currentWiped[2].y, tile: 0, layer: 'TeamAnimation/AniC'}]);
+        WA.room.setTiles([{x: currentWiped[3].x, y: currentWiped[3].y, tile: 0, layer: 'TeamAnimation/AniD'}]);
+        WA.room.setTiles([{x: currentWiped[4].x, y: currentWiped[4].y, tile: 0, layer: 'TeamAnimation/AniE'}]);
 
         currentWiped = value;
 
@@ -64,6 +86,12 @@ export const initTeamPlay = function (){
         WA.room.setTiles([{x: value[2].x, y: value[2].y, tile: 'marker', layer: 'TeamLayer/TeamC'}]);
         WA.room.setTiles([{x: value[3].x, y: value[3].y, tile: 'marker', layer: 'TeamLayer/TeamD'}]);
         WA.room.setTiles([{x: value[4].x, y: value[4].y, tile: 'marker', layer: 'TeamLayer/TeamE'}]);
+
+        WA.room.setTiles([{x: value[0].x, y: value[0].y, tile: 'found', layer: 'TeamAnimation/AniA'}]);
+        WA.room.setTiles([{x: value[1].x, y: value[1].y, tile: 'found', layer: 'TeamAnimation/AniB'}]);
+        WA.room.setTiles([{x: value[2].x, y: value[2].y, tile: 'found', layer: 'TeamAnimation/AniC'}]);
+        WA.room.setTiles([{x: value[3].x, y: value[3].y, tile: 'found', layer: 'TeamAnimation/AniD'}]);
+        WA.room.setTiles([{x: value[4].x, y: value[4].y, tile: 'found', layer: 'TeamAnimation/AniE'}]);
     });
 }
 
@@ -174,54 +202,63 @@ let endFirework = function (){
  */
 let setTriggers = function () {
     subscriptions.push(WA.room.onEnterLayer('TeamLayer/TeamA').subscribe((va:any) =>{
-        console.log(va);
+        WA.room.showLayer('TeamAnimation/AniA');
         writeToVar('a', false);
 
     }))
 
 
     subscriptions.push(WA.room.onEnterLayer('TeamLayer/TeamB').subscribe(() =>{
+        WA.room.showLayer('TeamAnimation/AniB');
         writeToVar('b', false);
 
     }))
 
     subscriptions.push(WA.room.onEnterLayer('TeamLayer/TeamC').subscribe(() =>{
+        WA.room.showLayer('TeamAnimation/AniC');
         writeToVar('c', false);
 
     }))
 
     subscriptions.push(WA.room.onEnterLayer('TeamLayer/TeamD').subscribe(() =>{
+        WA.room.showLayer('TeamAnimation/AniD');
         writeToVar('d', false);
 
     }))
 
     subscriptions.push(WA.room.onEnterLayer('TeamLayer/TeamE').subscribe(() =>{
+        WA.room.showLayer('TeamAnimation/AniE');
         writeToVar('e', false);
 
     }))
 
 
     subscriptions.push(WA.room.onLeaveLayer('TeamLayer/TeamA').subscribe(() =>{
+        WA.room.hideLayer('TeamAnimation/AniA');
         writeToVar('a', true);
 
     }))
 
     subscriptions.push(WA.room.onLeaveLayer('TeamLayer/TeamB').subscribe(() =>{
+        WA.room.hideLayer('TeamAnimation/AniB');
         writeToVar('b', true);
 
     }))
 
     subscriptions.push(WA.room.onLeaveLayer('TeamLayer/TeamC').subscribe(() =>{
+        WA.room.hideLayer('TeamAnimation/AniC');
         writeToVar('c', true);
 
     }))
 
     subscriptions.push(WA.room.onLeaveLayer('TeamLayer/TeamD').subscribe(() =>{
+        WA.room.hideLayer('TeamAnimation/AniD');
         writeToVar('d', true);
 
     }))
 
     subscriptions.push(WA.room.onLeaveLayer('TeamLayer/TeamE').subscribe(() =>{
+        WA.room.hideLayer('TeamAnimation/AniE');
         writeToVar('e', true);
 
     }))
