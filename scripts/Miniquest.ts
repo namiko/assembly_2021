@@ -16,10 +16,6 @@ export const initMiniquest = () => {
  * step 2: walk over cable in water to get shocked and show PCB with glowing LEDs
  * step 3: walk back to solder-station to receive badge
  */
-let miniQuest = function (event:any){
-
-
-}
 
 let doQuest = function (){
 
