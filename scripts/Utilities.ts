@@ -2,7 +2,9 @@ import {getLayersMap} from "@workadventure/scripting-api-extra/dist";
 import {ITiledMapTileLayer} from "@workadventure/tiled-map-type-guard/dist/ITiledMapTileLayer";
 
 
-
+/**
+ * Getting the area where it is possible for players to move
+ */
 let getUsedFields = async function (): Promise<any>{
     let fieldData = {
       width:0,
@@ -27,6 +29,9 @@ let getUsedFields = async function (): Promise<any>{
 
 }
 
+/**
+ * Getting some random fields of the possible movement fields to relocate firework triggers
+ */
 export const getRandomField =  function () {
     getUsedFields().then((fieldData) => {
         let newFields: any = [];
@@ -47,8 +52,4 @@ export const getRandomField =  function () {
 
         WA.state.saveVariable('wiped', newFields);
     });
-
-
-
-
 }

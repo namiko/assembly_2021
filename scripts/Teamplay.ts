@@ -6,6 +6,10 @@ let currentWiped:any;
 
 let subscriptions:any[] = [];
 
+
+/**
+ * set initial Variables and layer visibilities
+ */
 export const initTeamPlay = function (){
     let received:any = WA.state.loadVariable('isFiring');
     isFiring = JSON.parse(received);
@@ -63,6 +67,11 @@ export const initTeamPlay = function (){
     });
 }
 
+/**
+ * Writing/Deleting the name of ployer who entered the secret team layer
+ * @param valName players Name who entered/left a teamplay layer
+ * @param del should the players name be deleted from list
+ */
 let writeToVar = function(valName:string, del:boolean){
     let value = WA.player.name;
 
@@ -78,6 +87,8 @@ let writeToVar = function(valName:string, del:boolean){
 
     let currentPlayer = counter.players[valName];
 
+
+    /* checking if player is cheating by entering the map with multiple browsers */
     if(currentPlayer === value && del && counter.count > 0){
         counter['players'][valName] = null;
         counter.count = counter.count - 1;
@@ -104,6 +115,10 @@ let writeToVar = function(valName:string, del:boolean){
     WA.state.saveVariable('teamCounter', counter);
 }
 
+/**
+ * start the firework if enough secret fields are occupied
+ * @param value counterVariable content
+ */
 let startFirework = function (value:any){
     if(value.count === limit){
         WA.room.showLayer('feuerwerk_1');
@@ -120,10 +135,17 @@ let startFirework = function (value:any){
     }
 }
 
+//TODO
+/**
+ * giving badges to players, that triggered the Firework
+ */
 let spreadBadge = function (){
 
 }
 
+/**
+ * reset all counters an layers to start game over
+ */
 let clearPlayers = function(){
     let counter;
     let x:any = WA.state.loadVariable('teamCounter');
@@ -135,6 +157,9 @@ let clearPlayers = function(){
     WA.state.saveVariable('teamCounter', counter);
 }
 
+/**
+ * hide firework layers
+ */
 let endFirework = function (){
     WA.room.hideLayer('feuerwerk_1');
     WA.room.hideLayer('feuerwerk_2');
@@ -144,7 +169,9 @@ let endFirework = function (){
 
 }
 
-
+/**
+ * add Listeners to secret teamplay layers
+ */
 let setTriggers = function () {
     subscriptions.push(WA.room.onEnterLayer('TeamLayer/TeamA').subscribe((va:any) =>{
         console.log(va);

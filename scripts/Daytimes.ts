@@ -4,6 +4,9 @@ export const initDaytimes = () => {
     setInterval(estimateTimeOfDay,600000);
 }
 
+/**
+ * showing/hiding layers dependend on current time
+ */
 export const estimateTimeOfDay = function (){
     const hour = new Date().getUTCHours();
 

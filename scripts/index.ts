@@ -8,6 +8,10 @@ import {initDaytimes} from "./Daytimes";
 // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure.
 bootstrapExtra().catch(e => console.error(e));
 
+
+/**
+ * Initialize other scripts
+ */
 WA.onInit().then(() => {
     initTeamPlay();
     initDaytimes()
