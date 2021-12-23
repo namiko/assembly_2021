@@ -45,7 +45,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"http:\/\/namiko.github.io\/assembly_2021\/maps\/haecksenwerk_mindmap.html"
+                         "value":"https:\/\/namiko.github.io\/assembly_2021\/maps\/haecksenwerk_mindmap.html"
                         }],
                  "type":"tilelayer",
                  "visible":true,
