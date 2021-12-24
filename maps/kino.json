@@ -12,7 +12,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/main.json#entries\/from_kino"
+                 "value":"..\/main.json#from_kino"
                 }],
          "type":"tilelayer",
          "visible":true,
