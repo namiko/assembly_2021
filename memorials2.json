@@ -28,12 +28,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"audioLoop",
-                 "type":"bool",
-                 "value":true
-                }, 
-                {
-                 "name":"playAudio",
+                 "name":"playAudioLoop",
                  "type":"string",
                  "value":"assets\/syl_tilesets\/Stardust.mp3"
                 }],
