@@ -476,6 +476,21 @@
          "name":"mapCopyright",
          "type":"string",
          "value":"map: https:\/\/www.haecksen.org\/; sounds:assets\/syl_tilesets\/bossabossa.mp3 by BossaBossa by Kevin MacLeod | https:\/\/incompetech.com\/\nMusic promoted by https:\/\/www.chosic.com\/free-music\/all\/\nCreative Commons Creative Commons: By Attribution 3.0 License\nhttp:\/\/creativecommons.org\/licenses\/by\/3.0\/"
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"Die Memorials_1 der Haecksen"
+        }, 
+        {
+         "name":"mapLink",
+         "type":"string",
+         "value":"https:\/\/namiko.github.io\/assembly_2021\/maps\/memorials.json"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"haecksen_memorials"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",

@@ -224,7 +224,22 @@
         {
          "name":"mapCopyright",
          "type":"string",
-         "value":"https:\/\/www.haecksen.org\/"
+         "value":"https:\/\/www.haecksen.org"
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"Das Klo der Haecksen"
+        }, 
+        {
+         "name":"mapLink",
+         "type":"string",
+         "value":"https:\/\/namiko.github.io\/assembly_2021\/maps\/haecksenwerk_klo.json"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"haecksen_klo"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",

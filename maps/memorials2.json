@@ -13,7 +13,22 @@
                  "name":"exitUrl",
                  "type":"string",
                  "value":"..\/main.json#entries\/from_memorials_2"
-                }],
+                }, 
+				{
+				 "name":"mapDescription",
+				 "type":"string",
+				 "value":"Die Memorials 2 der Haecksen"
+				}, 
+				{
+				 "name":"mapLink",
+				 "type":"string",
+				 "value":"https:\/\/namiko.github.io\/assembly_2021\/maps\/memorials2.json"
+				}, 
+				{
+				 "name":"mapName",
+				 "type":"string",
+				 "value":"haecksen_memorials_2"
+				}],
          "type":"tilelayer",
          "visible":true,
          "width":30,
