@@ -13,22 +13,7 @@
                  "name":"exitUrl",
                  "type":"string",
                  "value":"..\/main.json#entries\/from_memorials_2"
-                }, 
-				{
-				 "name":"mapDescription",
-				 "type":"string",
-				 "value":"Die Memorials 2 der Haecksen"
-				}, 
-				{
-				 "name":"mapLink",
-				 "type":"string",
-				 "value":"https:\/\/namiko.github.io\/assembly_2021\/maps\/memorials2.json"
-				}, 
-				{
-				 "name":"mapName",
-				 "type":"string",
-				 "value":"haecksen_memorials_2"
-				}],
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":30,
@@ -354,7 +339,22 @@
          "name":"mapCopyright",
          "type":"string",
          "value":"map: https:\/\/www.haecksen.org\/; sounds:assets\/syl_tilesets\/bossabossa.mp3 by BossaBossa by Kevin MacLeod | https:\/\/incompetech.com\/\nMusic promoted by https:\/\/www.chosic.com\/free-music\/all\/\nCreative Commons Creative Commons: By Attribution 3.0 License\nhttp:\/\/creativecommons.org\/licenses\/by\/3.0\/"
-        }],
+        }, 
+		{
+		 "name":"mapDescription",
+		 "type":"string",
+		 "value":"Die Memorials 2 der Haecksen"
+		}, 
+		{
+		 "name":"mapLink",
+		 "type":"string",
+		 "value":"https:\/\/namiko.github.io\/assembly_2021\/maps\/memorials2.json"
+		}, 
+		{
+		 "name":"mapName",
+		 "type":"string",
+		 "value":"haecksen_memorials_2"
+		}],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
  "tileheight":32,
