@@ -147,7 +147,7 @@
          "name":"floor",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":30,
          "x":0,
          "y":0
@@ -540,11 +540,6 @@
          "name":"grace-hopper",
          "properties":[
                 {
-                 "name":"collides",
-                 "type":"bool",
-                 "value":true
-                }, 
-                {
                  "name":"tilesetCopyright",
                  "type":"string",
                  "value":"https:\/\/www.haecksen.org\/"
@@ -584,15 +579,10 @@
          "margin":0,
          "name":"kernspaltung",
          "properties":[
-		        {
+                {
                  "name":"tilesetCopyright",
                  "type":"string",
                  "value":"https:\/\/www.haecksen.org\/"
-                },
-                {
-                 "name":"collides",
-                 "type":"bool",
-                 "value":true
                 }],
          "spacing":0,
          "tilecount":18,
@@ -629,15 +619,10 @@
          "margin":0,
          "name":"kate-darling",
          "properties":[
-		        {
+                {
                  "name":"tilesetCopyright",
                  "type":"string",
                  "value":"https:\/\/www.haecksen.org\/"
-                },
-                {
-                 "name":"collides",
-                 "type":"bool",
-                 "value":true
                 }],
          "spacing":0,
          "tilecount":40,
@@ -672,11 +657,6 @@
          "margin":0,
          "name":"hilda",
          "properties":[
-                {
-                 "name":"collides",
-                 "type":"bool",
-                 "value":true
-                }, 
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
@@ -715,15 +695,10 @@
          "margin":0,
          "name":"stjude",
          "properties":[
-		        {
+                {
                  "name":"tilesetCopyright",
                  "type":"string",
                  "value":"https:\/\/www.haecksen.org\/"
-                },
-                {
-                 "name":"collides",
-                 "type":"bool",
-                 "value":true
                 }],
          "spacing":0,
          "tilecount":16,

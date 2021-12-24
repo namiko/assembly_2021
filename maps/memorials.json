@@ -46,7 +46,12 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"playAudioLoop",
+                 "name":"audioLoop",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"playAudio",
                  "type":"string",
                  "value":"..\/assets\/syl_tilesets\/BossaBossa.mp3"
                 }],
@@ -698,16 +703,6 @@
          "spacing":0,
          "tilecount":30,
          "tileheight":32,
-         "tiles":[
-                {
-                 "id":0,
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/www.haecksen.org\/women\/ada-lovelace\/"
-                        }]
-                }],
          "tilewidth":32
         }, 
         {
