@@ -44,7 +44,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/main.json#entries\/from_linux"
+                 "value":"..\/main.json#from_linux"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -719,12 +719,6 @@
                 }, 
                 {
                  "id":1,
-                 "properties":[
-                        {
-                         "name":"startLayer",
-                         "type":"bool",
-                         "value":true
-                        }],
                  "type":"START"
                 }, 
                 {
