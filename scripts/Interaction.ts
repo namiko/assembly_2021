@@ -12,6 +12,11 @@ export const initInteractions = () => {
     doSound();
 }
 
+
+/**
+ * fiddling out which step tile should be drawn where
+ * @param event moveEvent of player
+ */
 let estimatePosition = function (event:any){
     let xString = 'center';
     let yString = 'center';
@@ -43,6 +48,10 @@ let estimatePosition = function (event:any){
     return {vertical: xString, horizontal: yString};
 }
 
+/**
+ * Adding tiles with foot trails on the snowy part of the map
+ * @param event move event of the player
+ */
 let drawSteps = function (event:any){
 
     let positions = estimatePosition(event);
@@ -68,6 +77,9 @@ let drawSteps = function (event:any){
     latestSteps.push({x: x, y: y});
 }
 
+/**
+ * Playing sound , triggered by movement depending on players position
+ */
 let doSound = function (){
     let config = {
         volume : 0.2,
@@ -79,24 +91,26 @@ let doSound = function (){
         mute : false
     }
 
-    WA.room.onEnterZone('SnowSteps', () => {
+    WA.room.onEnterLayer('SnowSteps').subscribe(() =>{
         isOnSnow = true;
+
     })
 
-
-    WA.room.onLeaveZone('SnowSteps', () =>{
+    WA.room.onLeaveLayer('SnowSteps').subscribe(() =>{
         isOnSnow = false;
 
         latestSteps.forEach(function (removable){
             WA.room.setTiles([{x: removable.x, y: removable.y, tile: null, layer: 'footsteps'}])
         })
     })
-	
-	WA.room.onEnterZone('WaterSteps', () =>{
+
+
+    WA.room.onEnterLayer('WaterSteps').subscribe(() =>{
         isOnWater = true;
+
     })
 
-    WA.room.onLeaveZone('WaterSteps', () =>{
+    WA.room.onLeaveLayer('WaterSteps').subscribe(() =>{
         isOnWater = false;
     })
 
