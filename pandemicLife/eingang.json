@@ -96,7 +96,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":""
+                 "value":"..\/main.json#from_exhibition"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -114,7 +114,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"Anfangstext.html"
+                 "value":"https:\/\/namiko.github.io\/assembly_2021\/pandemicLife\/Anfangstext.html"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -244,6 +244,27 @@
  "nextlayerid":18,
  "nextobjectid":1,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"https:\/\/www.haecksen.org"
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"Eingang der Ausstellung"
+        }, 
+        {
+         "name":"mapLink",
+         "type":"string",
+         "value":"https:\/\/namiko.github.io\/assembly_2021\/pandemicLife\/eingang.json"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"haecksen_pan_eingang"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
  "tileheight":32,
@@ -256,6 +277,12 @@
          "imagewidth":288,
          "margin":0,
          "name":"mapUtilities",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":9,
          "tileheight":32,
@@ -280,6 +307,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-colors-128",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":128,
          "tileheight":32,
@@ -294,6 +327,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-objects",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":128,
          "tileheight":32,
@@ -308,6 +347,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"AceSet-Hospital",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":256,
          "tileheight":32,
@@ -322,6 +367,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"c3gelb",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -336,6 +387,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"cert_safety",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -350,6 +407,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"food_and_drinks",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -364,6 +427,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"furniture",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -378,6 +447,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"misc",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -392,6 +467,12 @@
          "imagewidth":256,
          "margin":0,
          "name":"[Base]BaseChip_pipo",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/pipoya.itch.io\/pipoya-rpg-tileset-32x32"
+                }],
          "spacing":0,
          "tilecount":1064,
          "tileheight":32,
@@ -406,6 +487,12 @@
          "imagewidth":256,
          "margin":0,
          "name":"LightShadow_pipo",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/pipoya.itch.io\/pipoya-rpg-tileset-32x32"
+                }],
          "spacing":0,
          "tilecount":48,
          "tileheight":32,
@@ -420,6 +507,12 @@
          "imagewidth":368,
          "margin":0,
          "name":"ausstellung",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/www.haecksen.org\/"
+                }],
          "spacing":0,
          "tilecount":66,
          "tileheight":32,
