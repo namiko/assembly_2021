@@ -190,7 +190,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/main.json#entries\/from_podcast"
+                 "value":"..\/main.json#from_podcast"
                 }],
          "type":"tilelayer",
          "visible":true,
