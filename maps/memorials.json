@@ -12,7 +12,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/main.json#entries\/from_memorials_1"
+                 "value":"..\/main.json#from_memorials_1"
                 }],
          "type":"tilelayer",
          "visible":true,
