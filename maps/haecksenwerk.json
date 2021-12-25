@@ -24,7 +24,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"..\/mp3\/haecksenwerk_intro.mp3"
+                 "value":"..\/assets\/mp3\/haecksenwerk_intro.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
