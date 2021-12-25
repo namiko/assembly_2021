@@ -242,7 +242,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"..\/assets\/syl_tilesets\/BossaBossa.mp3\n"
+                 "value":"..\/assets\/syl_tilesets\/BossaBossa.mp3"
                 }],
          "type":"tilelayer",
          "visible":false,
