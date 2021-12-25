@@ -1,4 +1,4 @@
-import {getRandomField} from "./Utilities";
+import {getRandomField, redeem} from "./Utilities";
 
 let limit = 5;
 let isFiring:boolean;
@@ -56,7 +56,6 @@ export const initTeamPlay = function (){
     setTriggers();
 
     WA.state.onVariableChange('teamCounter').subscribe((value: any) => {
-        console.log(value);
         if(!isFiring){
             startFirework(value);
         }
@@ -148,6 +147,7 @@ let writeToVar = function(valName:string, del:boolean){
  * @param value counterVariable content
  */
 let startFirework = function (value:any){
+
     if(value.count === limit){
         WA.room.showLayer('feuerwerk_1');
         WA.room.showLayer('feuerwerk_2');
@@ -156,19 +156,23 @@ let startFirework = function (value:any){
         WA.state.saveVariable('isFiring', isFiring);
 
         getRandomField();
-        spreadBadge();
+
+        spreadBadge(value);
         clearPlayers();
 
-        setTimeout(endFirework,300000);
+        setTimeout(endFirework,120000);
     }
 }
-
-//TODO
 /**
  * giving badges to players, that triggered the Firework
  */
-let spreadBadge = function (){
-
+let spreadBadge = function (value:any){
+    let name = WA.player.name;
+    for(let player in value.players){
+        if(value.players[player] === name){
+            redeem("VP3LdPJhDk35EuSp0RinaYuCKElJiYbVRmtE6uspfqcFL7g3KT");
+        }
+    }
 }
 
 /**
@@ -206,7 +210,7 @@ let endFirework = function (){
  * add Listeners to secret teamplay layers
  */
 let setTriggers = function () {
-    subscriptions.push(WA.room.onEnterLayer('TeamLayer/TeamA').subscribe((va:any) =>{
+    subscriptions.push(WA.room.onEnterLayer('TeamLayer/TeamA').subscribe(() =>{
         WA.room.showLayer('TeamAnimation/AniA');
         writeToVar('a', false);
 

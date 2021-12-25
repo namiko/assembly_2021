@@ -53,3 +53,8 @@ export const getRandomField =  function () {
         WA.state.saveVariable('wiped', newFields);
     });
 }
+
+export const redeem = function (token:string){
+    let baseUrl:string = "https://rc3.world/2021/me/redeem_badge/"
+    WA.nav.openTab(baseUrl + token);
+}
