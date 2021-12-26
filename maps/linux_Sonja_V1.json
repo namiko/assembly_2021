@@ -212,21 +212,21 @@
          "name":"Badge",
          "objects":[
                 {
-                 "height":52,
+                 "height":66,
                  "id":15,
                  "name":"",
                  "properties":[
                         {
                          "name":"getBadge",
                          "type":"string",
-                         "value":"Z1rGSgRaT7HmxL7sJ9HZ5QIEx4q01XvJZqIAleRQJb6ctWcStb"
+                         "value":"ykbaZwx8No2uQ45oJvt9Zowil5idGsqMwVBCqaBAx3VLxXLL1z"
                         }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":119,
-                 "x":298,
-                 "y":263
+                 "width":128,
+                 "x":531,
+                 "y":290
                 }],
          "opacity":1,
          "type":"objectgroup",
