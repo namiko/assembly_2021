@@ -59,8 +59,14 @@
                  "id":18,
                  "name":"hckn006_jadip_programm",
                  "opacity":1,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.haecksen.org\/uncategorized\/hckn006-how-to-rc3-und-jadip-2021\/"
+                        }],
                  "type":"tilelayer",
-                 "visible":false,
+                 "visible":true,
                  "width":18,
                  "x":0,
                  "y":0
