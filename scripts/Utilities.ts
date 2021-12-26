@@ -54,7 +54,18 @@ export const getRandomField =  function () {
     });
 }
 
-export const redeem = function (token:string){
+/**
+ *
+ * @param token the redeemtoken of the badge
+ * @param cowebsite open sidescroller to show redeem-page, if false new tab will be opened but that can be blocked
+ * by broser
+ */
+export const redeem = function (token:string, cowebsite:boolean){
     let baseUrl:string = "https://rc3.world/2021/me/redeem_badge/"
-    WA.nav.openTab(baseUrl + token);
+    if(cowebsite){
+        WA.nav.openCoWebSite(baseUrl+token,false)
+    }else{
+        WA.nav.openTab(baseUrl + token);
+    }
+
 }

@@ -1,6 +1,6 @@
 import {getRandomField, redeem} from "./Utilities";
 
-let limit = 5;
+let limit = 1;
 let isFiring:boolean;
 let currentWiped:any;
 
@@ -170,7 +170,7 @@ let spreadBadge = function (value:any){
     let name = WA.player.name;
     for(let player in value.players){
         if(value.players[player] === name){
-            redeem("VP3LdPJhDk35EuSp0RinaYuCKElJiYbVRmtE6uspfqcFL7g3KT");
+            redeem("VP3LdPJhDk35EuSp0RinaYuCKElJiYbVRmtE6uspfqcFL7g3KT", true);
         }
     }
 }
