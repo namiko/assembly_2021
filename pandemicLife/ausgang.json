@@ -509,6 +509,12 @@
          "imagewidth":368,
          "margin":0,
          "name":"ausstellung",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/www.haecksen.org"
+                }],
          "spacing":0,
          "tilecount":66,
          "tileheight":32,
