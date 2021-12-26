@@ -54,7 +54,8 @@ let doQuest = function (){
         if(showPCBLED){
 	    resetQuest = false;
     	    badgePCB = true;
-    	    /* ToDo: give badge */
+    	    /*hand out badge */
+	    WA.room.setProperty('solderStation', 'openWebsite', 'https://rc3.world/2021/login?next=/2021/me/redeem_badge/XAsEgcPiwIOiDYcdMcniCsUeQcvJXMX7AymnnDw0g2JXiYeqQm');
 	}
     })
 
