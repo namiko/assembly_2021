@@ -9,7 +9,7 @@
          "name":"collisions",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
@@ -21,7 +21,7 @@
          "name":"silent_area",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
@@ -37,9 +37,19 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/wiki.haecksen.org\/index.php\/Haecksen_library"
+                }, 
+                {
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
+                }, 
+                {
+                 "name":"openWebsiteTriggerMessage",
+                 "type":"string",
+                 "value":"schau die die Haecksen-Bibliothek an"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
@@ -57,7 +67,7 @@
                  "value":"world:\/\/digitalcourage\/main.json#enterFromHaecksen"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
@@ -75,7 +85,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
@@ -93,7 +103,7 @@
                  "value":"..\/main.json#from_bib"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
@@ -111,7 +121,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
@@ -129,7 +139,7 @@
                  "value":"https:\/\/rc3.world\/rc3\/me\/redeem_badge\/Ouh7yonVgULcWaOuKCTcJCWpZxtPyp1l2pLpHCso7UKJpfeuSM"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
@@ -141,7 +151,7 @@
          "name":"floor",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
@@ -153,7 +163,7 @@
          "name":"floor-deco",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
@@ -165,7 +175,7 @@
          "name":"outside_back",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
@@ -177,7 +187,7 @@
          "name":"walls_back",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
@@ -189,7 +199,7 @@
          "name":"furniture_behind_char",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
@@ -201,7 +211,7 @@
          "name":"interior_behind_char",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
@@ -213,7 +223,7 @@
          "name":"cert_layer",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
@@ -225,7 +235,7 @@
          "name":"deko",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
@@ -237,7 +247,7 @@
          "name":"deco_over_deco",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
@@ -249,7 +259,7 @@
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -260,7 +270,7 @@
          "name":"furniture_over_char",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
@@ -272,7 +282,7 @@
          "name":"interior_over_char",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
@@ -284,7 +294,7 @@
          "name":"walls_front",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
@@ -296,7 +306,7 @@
          "name":"outside_front",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":18,
          "x":0,
          "y":0
