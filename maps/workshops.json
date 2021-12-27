@@ -435,19 +435,15 @@
          "imagewidth":512,
          "margin":0,
          "name":"cert_safety",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
-         "tiles":[
-                {
-                 "id":0,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"https:\/\/git.cccv.de\/rc3\/world-map-starterkit\/-\/tree\/master\/tiles_png"
-                        }]
-                }],
          "tilewidth":32,
          "transparentcolor":"#898989"
         }, 
