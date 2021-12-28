@@ -164,7 +164,7 @@
                         {
                          "name":"url",
                          "type":"string",
-                         "value":"https:\/\/media.ccc.de\/v\/36c3-10903-jahresruckblick_der_haecksen\/oembed?controls=0&autoplay=1"
+                         "value":"https:\/\/streaming.media.ccc.de\/rc3\/embed\/haecksen\/hls\/native"
                         }],
                  "rotation":0,
                  "type":"website",
