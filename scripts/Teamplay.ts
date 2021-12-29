@@ -1,6 +1,6 @@
 import {getRandomField, redeem} from "./Utilities";
 
-let limit = 1;
+let limit = 3;
 let isFiring:boolean;
 let currentWiped:any;
 
